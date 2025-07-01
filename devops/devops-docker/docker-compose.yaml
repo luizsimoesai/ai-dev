@@ -1,0 +1,14 @@
+# --- EXEMPLO ---
+
+services:
+  app:
+    image: fastapi_app
+    build: .              # Constrói a imagem a partir do Dockerfile local
+    container_name: fastapi_app
+    command: sh -c "uvicorn main:app --host 0.0.0.0 --port 8000 --reload"  # Servidor FastAPI
+    env_file:
+      - .env
+    volumes:
+      - .:/app            # Monta o código para hot-reload em desenvolvimento
+    ports:
+      - "8000:8000"       # Exponha a porta 8000

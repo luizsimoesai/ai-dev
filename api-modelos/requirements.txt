@@ -2,3 +2,4 @@ python-dotenv
 ipykernel
 requests
 openai
+ollama

@@ -1,0 +1,15 @@
+{
+  "1309.2086v1": {
+    "title": "High-level robot programming based on CAD: dealing with unpredictable environments",
+    "authors": [
+      "Pedro Neto",
+      "Nuno Mendes",
+      "Ricardo Ara\u00fajo",
+      "J. Norberto Pires",
+      "A. Paulo Moreira"
+    ],
+    "summary": "Purpose - The purpose of this paper is to present a CAD-based human-robot interface that allows non-expert users to teach a robot in a manner similar to that used by human beings to teach each other.\n  Design/methodology/approach - Intuitive robot programming is achieved by using CAD drawings to generate robot programs off-line. Sensory feedback allows minimization of the effects of uncertainty, providing information to adjust the robot paths during robot operation.\n  Findings - It was found that it is possible to generate a robot program from a common CAD drawing and run it without any major concerns about calibration or CAD model accuracy.\n  Research limitations/implications - A limitation of the proposed system has to do with the fact that it was designed to be used for particular technological applications.\n  Practical implications - Since most manufacturing companies have CAD packages in their facilities today, CAD-based robot programming may be a good option to program robots without the need for skilled robot programmers.\n  Originality/value - The paper proposes a new CAD-based robot programming system. Robot programs are directly generated from a CAD drawing running on a commonly available 3D CAD package (Autodesk Inventor) and not from a commercial, computer aided robotics (CAR) software, making it a simple CAD integrated solution. This is a low-cost and low-setup time system where no advanced robot programming skills are required to operate it. In summary, robot programs are generated with a high-level of abstraction from the robot language.",
+    "pdf_url": "https://arxiv.org/pdf/1309.2086v1",
+    "published": "2013-09-09"
+  }
+}

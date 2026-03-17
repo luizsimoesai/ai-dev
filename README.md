@@ -1,3 +1,4 @@
-### Introdução
+### Introduction
 
-Este repositório reúne exemplos práticos e tutoriais voltados ao desenvolvimento de sistemas com inteligência artificial. O objetivo é fornecer trechos de código prontos para uso, que podem ser facilmente adaptados e incorporados aos seus próprios projetos.
+This repository brings together practical examples and tutorials focused on developing systems with artificial intelligence. The goal is to provide ready-to-use code snippets that can be easily adapted and incorporated into your own projects.
+

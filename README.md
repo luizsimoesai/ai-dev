@@ -5,8 +5,8 @@ This repository is a collection of practical, copy/paste-ready recipes for build
 ## Structure
 
 - `models/` — direct usage of each provider (OpenAI, Anthropic, Ollama): what actually changes from SDK to SDK.
-- `patterns/` — provider-agnostic patterns, like RAG from scratch and prompt engineering.
-- `knowledge/` — embeddings, document parsing, vector databases, and NLP fundamentals.
+- `techniques/` — provider-agnostic techniques, like RAG from scratch and prompt engineering.
+- `fundamentals/` — embeddings, document parsing, vector databases, and NLP fundamentals.
 - `mcp/` — Model Context Protocol recipes: server, client, and function-calling comparisons.
 - `tools/` — supporting tooling: uv, deployment (Docker, Google Cloud), scraping, Python utilities.
 - `_archive/` — content outside the scope of AI recipes (general Python/dev tutorials, third-party course copies), kept for reference.

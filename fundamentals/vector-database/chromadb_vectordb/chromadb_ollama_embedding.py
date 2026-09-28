@@ -11,7 +11,7 @@ ollama_ef = OllamaEmbeddingFunction(
     model_name="embeddinggemma",
 )
 
-# exemplo criação de embeddings
+# example embedding creation
 embeddings = ollama_ef(["This is my first text to embed",
                         "This is my second document"])
 

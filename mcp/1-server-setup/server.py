@@ -37,17 +37,17 @@ if __name__ == "__main__":
 # --- MCP Inspector ---
 # ---------------------
 
-# Para executar o servidor com o MCP Inspector:
+# To run the server with the MCP Inspector:
 # $ mcp dev server.py
 
-# Pode aparecer a seguinte mensagem:
+# The following message may appear:
 # $ mcp dev server.py
 # Need to install the following packages:
 # @modelcontextprotocol/inspector@0.14.3
-# Ok to proceed? (y) 
+# Ok to proceed? (y)
 
-# abrir o endereço do MCP Inspector no navegador (Safari):
+# open the MCP Inspector address in the browser (Safari):
 # http://localhost:6274/?MCP_PROXY_AUTH_TOKEN=<a_sixty_four_character_token>
-# clicar em 'Connect'
+# click 'Connect'
 
-# Clicar em 'Tools' >> 'List Tools'
+# Click 'Tools' >> 'List Tools'

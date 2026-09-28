@@ -1,8 +1,8 @@
 ## Embeddings Fundamentals
 
-Como embeddings funcionam, antes de qualquer vector database.
+How embeddings work, before any vector database.
 
-- Gerando embeddings (OpenAI, Ollama, sentence-transformers)
-- Similaridade de cosseno na mão
-- Comparação entre modelos de embedding
-- Quando usar embedding vs busca léxica
+- Generating embeddings (OpenAI, Ollama, sentence-transformers)
+- Cosine similarity by hand
+- Comparing embedding models
+- When to use embeddings vs. lexical search

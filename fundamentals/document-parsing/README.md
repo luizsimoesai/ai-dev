@@ -1,7 +1,7 @@
 ## Document Parsing Fundamentals
 
-Preparação de documentos para RAG, antes de indexar em um vector database.
+Preparing documents for RAG, before indexing in a vector database.
 
-- Extração de texto (PDF, HTML, etc.)
-- Estratégias de chunking (fixed-size, semantic, recursive)
-- Metadata e preservação de estrutura
+- Text extraction (PDF, HTML, etc.)
+- Chunking strategies (fixed-size, semantic, recursive)
+- Metadata and structure preservation

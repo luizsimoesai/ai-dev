@@ -1,6 +1,6 @@
 ## Prompt Engineering Fundamentals
 
-Técnicas de prompting direto na API do modelo, sem depender de framework.
+Prompting techniques directly on the model API, without relying on a framework.
 
 - Zero-shot / few-shot
 - Chain-of-thought

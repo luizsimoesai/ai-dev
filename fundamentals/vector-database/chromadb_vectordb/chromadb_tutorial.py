@@ -8,7 +8,7 @@ chroma_client = chromadb.Client()
 collection = chroma_client.create_collection(name="my_collection")
 
 # Add some text documents to the collection
-# Utiliza o modelo: all-MiniLM-L6-v2
+# Uses the model: all-MiniLM-L6-v2
 collection.add(
     ids=["id1", "id2"],
     documents=[

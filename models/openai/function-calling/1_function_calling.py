@@ -6,15 +6,15 @@ from pprint import pprint
 from dotenv import load_dotenv
 _ = load_dotenv()
 
-# --- Função que retorna o clima ---
+# --- Function that returns the weather ---
 def get_weather(latitude, longitude):
     response = requests.get(f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&current=temperature_2m,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m")
     data = response.json()
     return data['current']['temperature_2m']
 
 
-# --- Etapa 1: chamar o modelo com a ferramenta get_weather definida ---
-# Modelo de chamada com funções definidas – junto com seu sistema e mensagens do usuário.
+# --- Step 1: call the model with the get_weather tool defined ---
+# Model call with functions defined – along with its system and user messages.
 
 
 client = OpenAI()
@@ -35,7 +35,7 @@ tools = [{
     "strict": True
 }]
 
-input_messages = [{"role": "user", "content": "Como está o tempo em São Paulo hoje?"}]
+input_messages = [{"role": "user", "content": "What is the weather like in São Paulo today?"}]
 
 response = client.responses.create(
     model="gpt-4.1",
@@ -43,16 +43,16 @@ response = client.responses.create(
     tools=tools,
 )
 
-# --- Etapa 2: O modelo decide chamar função(ões) – o modelo retorna o nome e os argumentos de entrada. ---
+# --- Step 2: the model decides to call function(s) – the model returns the name and input arguments. ---
 pprint(response.output[0].model_dump())
 
-# --- Etapa 3: Executar código de função – analisar a resposta do modelo e manipular chamadas de função. ---
+# --- Step 3: execute function code – parse the model's response and handle function calls. ---
 tool_call = response.output[0]
 args = json.loads(tool_call.arguments)
 
 result = get_weather(args["latitude"], args["longitude"])
 
-# --- Etapa 4: Forneça resultados ao modelo – para que ele possa incorporá-los em sua resposta final. ---
+# --- Step 4: supply results to the model – so it can incorporate them into its final response. ---
 input_messages.append(tool_call)  # append model's function call message
 input_messages.append({           # append result message
     "type": "function_call_output",
@@ -66,7 +66,7 @@ response_2 = client.responses.create(
     tools=tools,
 )
 
-# --- Etapa 5: O modelo responde – incorporando o resultado em sua saída. ---
+# --- Step 5: the model responds – incorporating the result into its output. ---
 print(response_2.output_text)
 
 

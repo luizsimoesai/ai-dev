@@ -1,8 +1,8 @@
-## APIs de modelos LLM
+## LLM Model APIs
 
 ### OpenAI
 - https://openai.com/api/
-- Login da API: https://auth.openai.com/log-in
-- Gerar uma chave API (Settings): https://platform.openai.com/settings/organization/api-keys
-- Documentação: https://platform.openai.com/docs/overview
+- API login: https://auth.openai.com/log-in
+- Generate an API key (Settings): https://platform.openai.com/settings/organization/api-keys
+- Documentation: https://platform.openai.com/docs/overview
 

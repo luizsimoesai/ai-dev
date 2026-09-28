@@ -1,46 +1,46 @@
 from collections import Counter, defaultdict
 
-# Corpus simples em português
+# Simple English corpus
 corpus = [
-    "o gato dorme no sofá",
-    "o gato come ração",
-    "o cachorro dorme no chão",
-    "o cachorro come carne",
-    "a menina brinca no parque",
-    "a menina come frutas",
-    "o menino joga bola",
-    "o menino corre rápido",
-    "o sol brilha forte",
-    "a lua brilha à noite",
-    "o pássaro voa alto",
-    "o pássaro canta bem"
+    "the cat sleeps on the couch",
+    "the cat eats food",
+    "the dog sleeps on the floor",
+    "the dog eats meat",
+    "the girl plays in the park",
+    "the girl eats fruit",
+    "the boy plays ball",
+    "the boy runs fast",
+    "the sun shines bright",
+    "the moon shines at night",
+    "the bird flies high",
+    "the bird sings well"
 ]
 
-# Construir modelo de bigramas
-bigramas = defaultdict(Counter)
+# Build bigram model
+bigrams = defaultdict(Counter)
 
-for frase in corpus:
-    palavras = frase.split()
-    for i in range(len(palavras) - 1):
-        palavra_atual = palavras[i]
-        proxima = palavras[i + 1]
-        bigramas[palavra_atual][proxima] += 1
+for sentence in corpus:
+    words = sentence.split()
+    for i in range(len(words) - 1):
+        current_word = words[i]
+        next_word = words[i + 1]
+        bigrams[current_word][next_word] += 1
 
-# Função para mostrar probabilidades
-def prever_proxima(palavra):
-    if palavra not in bigramas:
-        print(f"Palavra '{palavra}' não encontrada")
+# Function to show probabilities
+def predict_next(word):
+    if word not in bigrams:
+        print(f"Word '{word}' not found")
         return
-    
-    total = sum(bigramas[palavra].values())
-    print(f"\nApós '{palavra}':")
-    
-    for prox, freq in bigramas[palavra].most_common():
-        prob = freq / total
-        print(f"  '{prox}': {prob:.1%} ({freq}/{total})")
 
-# Testar o modelo
-prever_proxima("o")
-prever_proxima("gato")
-prever_proxima("come")
-prever_proxima("no")
+    total = sum(bigrams[word].values())
+    print(f"\nAfter '{word}':")
+
+    for next_word, freq in bigrams[word].most_common():
+        prob = freq / total
+        print(f"  '{next_word}': {prob:.1%} ({freq}/{total})")
+
+# Test the model
+predict_next("the")
+predict_next("cat")
+predict_next("eats")
+predict_next("on")

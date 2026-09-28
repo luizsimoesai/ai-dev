@@ -9,7 +9,7 @@ client = OpenAI()
 response = client.responses.create(
     model="gpt-4.1",
     tools=[{"type": "web_search_preview"}],
-    input="Qual a cotação do dolar para hoje?"
+    input="What is the exchange rate for the dollar today?"
 )
 
 print(response.output_text)

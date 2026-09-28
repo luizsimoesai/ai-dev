@@ -1,49 +1,49 @@
 # GCP - Google Cloud Provider
 
-### Criar um projeto no GCP
+### Create a project on GCP
 
-Criar um novo projeto no Google Cloud - https://console.cloud.google.com/
+Create a new project on Google Cloud - https://console.cloud.google.com/
 
-### Instalar a CLI gcloud
+### Install the gcloud CLI
 
-Linha de comando para rodas comandos do GCP no terminal. O Google Cloud CLI inclui as ferramentas de linha de comando , 'gcloude' e 'gsutil' - https://cloud.google.com/sdk/docs/install
+Command line for running GCP commands in the terminal. The Google Cloud CLI includes the command-line tools 'gcloud' and 'gsutil' - https://cloud.google.com/sdk/docs/install
 
 ```bash
 $ gcloud version
 ```
 
-### Autenticação no Google Cloud
+### Authenticating with Google Cloud
 
 ```bash
 $ gcloud auth login
 ```
 
-### Escolher o projeto
+### Choose the project
 
 ```bash
 $ gcloud config set project <project_id>
 ```
 
-### Para rodar um container na nuvem de forma 'serverless'
-Sem a criação de Virtual Machines. O Google que gerencia como escala.
+### To run a container in the cloud 'serverless'
+Without creating Virtual Machines. Google manages how it scales.
 
 ```bash
 $ gcloud run deploy --port=8000
 ```
-Opções que serão aprensentadas:
-- Escolher a pasta do projeto (Dockerfile) ou 'enter' se já estiver na pasta do projeto;
-- Escolher o nome do serviço;
-- Confirmar a instalação de outras APIs necessárias (Artifact Registry, etc);
-- Escolher uma região: [32] southamerica-east1;
-- Confirmar a criação de um Artifact Registry;
-- Confirmar 'Allow unauthenticated invocations';
+Options that will be presented:
+- Choose the project folder (Dockerfile) or 'enter' if already in the project folder;
+- Choose the service name;
+- Confirm the installation of other required APIs (Artifact Registry, etc);
+- Choose a region: [32] southamerica-east1;
+- Confirm the creation of an Artifact Registry;
+- Confirm 'Allow unauthenticated invocations';
 
-No final, será fornecido a URL do serviço.
+At the end, the service URL will be provided.
 
-### No GCP, entrar em Artifact Registry
+### In GCP, go to Artifact Registry
 
-Verificar a criação da imagem Docker no Google Cloud
+Verify the creation of the Docker image on Google Cloud
 
-### No GCP, entrar em Cloud Run
+### In GCP, go to Cloud Run
 
-Informações sobre o deploy, métricas, logs.
+Information about the deploy, metrics, logs.

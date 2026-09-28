@@ -1,19 +1,19 @@
-# --- EXEMPLO ---
+# --- EXAMPLE ---
 
-# Usa a imagem base do Python 3.13.5 com Alpine Linux
+# Use the Python 3.13.5 base image with Alpine Linux
 FROM python:3.13.5-alpine3.22
 
-# Define o diretório de trabalho dentro do contêiner
+# Set the working directory inside the container
 WORKDIR /app
 
-# Copia apenas o requirements.txt primeiro.
-# Isso permite que o cache do Docker seja
-# aproveitado: só reexecuta a instalação de
-# dependências quando esse arquivo muda.
+# Copy only requirements.txt first.
+# This allows the Docker cache to be
+# leveraged: dependency installation only
+# reruns when this file changes.
 COPY requirements.txt .
 
-# Instala as dependências do projeto
+# Install the project dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copia o restante dos arquivos do projeto
+# Copy the rest of the project files
 COPY . .

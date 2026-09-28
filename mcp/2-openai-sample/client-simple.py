@@ -150,7 +150,7 @@ async def main():
     await connect_to_server("server.py")
 
     # Example: Ask about company vacation policy
-    query = "Qual a política de férias da empresa?"
+    query = "What is the company's vacation policy?"
     print(f"\nQuery: {query}")
 
     response = await process_query(query)

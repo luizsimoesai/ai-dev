@@ -7,7 +7,7 @@ client = OpenAI()
 
 response = client.responses.create(
     model="gpt-4.1",
-    input="O que significa IA?"
+    input="What does AI mean?"
 )
 
 print(response.output_text)
@@ -19,10 +19,10 @@ response.output[0].to_dict()
 """
 {'id': 'msg_68652f019df881a3aaf0a87f68cbda4f0ba14653bd57027f',
  'content': [{'annotations': [],
-   'text': 'IA significa Inteligência Artificial, 
-            uma abreviatura para uma área da ciência da computação 
-            que desenvolve sistemas capazes de realizar 
-            tarefas que normalmente exigiriam inteligência humana.',
+   'text': 'AI stands for Artificial Intelligence,
+            an abbreviation for a field of computer science
+            that develops systems capable of performing
+            tasks that would normally require human intelligence.',
    'type': 'output_text',
    'logprobs': []}],
  'role': 'assistant',
@@ -34,32 +34,32 @@ response.output[0].to_dict()
 # --- instructions ---
 response = client.responses.create(
     model="gpt-4.1",
-    instructions="Você e um assistente que responde apenas em uma palava ou expressão.",
-    input="O que significa IA?",
+    instructions="You are an assistant that answers with only a single word or expression.",
+    input="What does AI mean?",
 )
 print(response.output_text)
 
 
-# -- Gerar texto com mensagens usando diferentes papéis (roles) ---
+# -- Generate text with messages using different roles ---
 response = client.responses.create(
     model="gpt-4o-mini",
     input=[
         {
             "role": "system",
-            "content": "Você e um assistente que responde apenas em uma palava ou expressão.",
+            "content": "You are an assistant that answers with only a single word or expression.",
         },
         {
             "role": "user",
-            "content": "O que significa IA?",
+            "content": "What does AI mean?",
         },
     ]
 )
 
 response.output[0].to_dict()
-""" 
+"""
 {'id': 'msg_686533da2290819faf8ed29ae86392b60a301ce4cd5b19bf',
  'content': [{'annotations': [],
-   'text': 'Inteligência Artificial.',
+   'text': 'Artificial Intelligence.',
    'type': 'output_text',
    'logprobs': []}],
  'role': 'assistant',
@@ -74,7 +74,7 @@ stream = client.responses.create(
     input=[
         {
             "role": "user",
-            "content": "O que significa IA?",
+            "content": "What does AI mean?",
         },
     ],
     stream=True,
@@ -83,19 +83,14 @@ stream = client.responses.create(
 answer_chunks = []
 for event in stream:
     if event.type == "response.output_text.delta":
-        piece = event.delta or ""          
-        if piece:                          
-            print("|", end="", flush=True)  
+        piece = event.delta or ""
+        if piece:
+            print("|", end="", flush=True)
             print(piece, end="", flush=True)
             answer_chunks.append(piece)
 print(answer_chunks)
-""" 
-['IA',
- ' significa',
- ' "',
- 'Int',
- 'elig',
- 'ência',
- ' Artificial',
- '".']
+"""
+['Artificial',
+ ' Intelligence',
+ '.']
 """

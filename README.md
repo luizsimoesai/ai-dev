@@ -1,6 +1,6 @@
 ### Introduction
 
-This repository is a collection of practical, copy/paste-ready recipes for building AI systems — organized by concept, not by provider or framework, so the code stays easy to adapt regardless of which SDK or library you're using.
+Personal collection of small, working AI examples, organized by concept rather than by provider or framework so the code stays easy to adapt.
 
 ## Structure
 

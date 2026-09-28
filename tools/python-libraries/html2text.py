@@ -1,11 +1,11 @@
-# O módulo html2text é usado para transformar HTML em texto simples, 
-# preservando formatação básica como links e listas.
+# The html2text module is used to convert HTML into plain text,
+# preserving basic formatting like links and lists.
 
 import html2text
 
 html_content = """
-<h1>Título</h1>
-<p>Este é um <b>parágrafo</b> com <a href="https://exemplo.com">um link</a>.</p>
+<h1>Title</h1>
+<p>This is a <b>paragraph</b> with <a href="https://example.com">a link</a>.</p>
 """
 
 text = html2text.html2text(html_content)

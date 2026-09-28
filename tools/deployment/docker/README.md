@@ -1,59 +1,59 @@
 # Docker
 
-Docker é uma plataforma que permite empacotar, distribuir e executar aplicações em contêineres leves, isolados e portáteis.
+Docker is a platform that lets you package, distribute, and run applications in lightweight, isolated, and portable containers.
   
 - https://www.docker.com/
 - https://hub.docker.com/
 - https://docs.docker.com/reference/dockerfile/
 
 ### Dockerfile
-O Dockerfile é um arquivo de configuração que contém instruções para criar uma imagem Docker personalizada, definindo o ambiente e os passos necessários para executar uma aplicação.
+The Dockerfile is a configuration file that contains instructions for building a custom Docker image, defining the environment and the steps needed to run an application.
 
 ```Dockerfile
-# Usa a imagem base do Python 3.13.5 com Alpine Linux
+# Use the Python 3.13.5 base image with Alpine Linux
 FROM python:3.13.5-alpine3.22
 
-# Define o diretório de trabalho dentro do contêiner
+# Set the working directory inside the container
 WORKDIR /app
 
-# Copia apenas o requirements.txt primeiro.
-# Isso permite que o cache do Docker seja
-# aproveitado: só reexecuta a instalação de
-# dependências quando esse arquivo muda.
+# Copy only requirements.txt first.
+# This allows the Docker cache to be
+# leveraged: dependency installation only
+# reruns when this file changes.
 COPY requirements.txt .
 
-# Instala as dependências do projeto
+# Install the project dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copia o restante dos arquivos do projeto
+# Copy the rest of the project files
 COPY . .
 
 ```
 
 ### .dockerignore
 
-O arquivo .dockerignore lista padrões de arquivos e pastas que devem ser ignorados durante o build da imagem, evitando que conteúdos desnecessários sejam copiados para o contêiner e reduzindo o tamanho da imagem.
+The .dockerignore file lists file and folder patterns that should be ignored during the image build, preventing unnecessary content from being copied into the container and reducing the image size.
 
 ### docker-compose.yaml
 
-O docker-compose.yaml é um arquivo de orquestração que descreve, em formato declarativo, como vários serviços Docker devem ser construídos, configurados e executados conjuntamente.
+The docker-compose.yaml is an orchestration file that declaratively describes how several Docker services should be built, configured, and run together.
 
 ```docker 
 services:
   app:
     image: fastapi_app
-    build: .              # Constrói a imagem a partir do Dockerfile local
+    build: .              # Build the image from the local Dockerfile
     container_name: fastapi_app
-    command: sh -c "uvicorn main:app --host 0.0.0.0 --port 8000 --reload"  # Servidor FastAPI
+    command: sh -c "uvicorn main:app --host 0.0.0.0 --port 8000 --reload"  # FastAPI server
     env_file:
       - .env
     volumes:
-      - .:/app            # Monta o código para hot-reload em desenvolvimento
+      - .:/app            # Mount the code for hot-reload in development
     ports:
-      - "8000:8000"       # Exponha a porta 8000
+      - "8000:8000"       # Expose port 8000
 ```
 
-Exemplos de comandos: (não estão em ordem de execução, são apenas exemplos)
+Example commands: (not in execution order, just examples)
 ```bash
 $ docker ps
 $ docker ps -a

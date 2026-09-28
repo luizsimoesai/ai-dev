@@ -4,7 +4,7 @@ response = chat(
     model="mistral",
     messages=[
         {
-            'role': 'user', 'content': 'Qual a capital do Brasil?'
+            'role': 'user', 'content': 'What is the capital of Brazil?'
         }
     ]
 )

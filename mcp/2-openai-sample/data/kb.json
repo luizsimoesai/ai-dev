@@ -1,22 +1,22 @@
 [
   {
-    "question": "Qual é a política de férias da empresa?",
-    "answer": "Colaboradores contratados em regime integral têm direito a 30 dias corridos de férias por ano, após 12 meses de trabalho. É permitido dividir as férias em até 3 períodos, sendo que um deles deve ter no mínimo 14 dias. Solicitações devem ser feitas com pelo menos 30 dias de antecedência via sistema de RH."
+    "question": "What is the company's vacation policy?",
+    "answer": "Full-time employees are entitled to 30 consecutive days of vacation per year, after 12 months of work. Vacation may be split into up to 3 periods, one of which must be at least 14 days long. Requests must be made at least 30 days in advance through the HR system."
   },
   {
-    "question": "Como posso solicitar acesso a um novo sistema?",
-    "answer": "Para solicitar acesso a um sistema, abra um chamado no portal de Suporte Técnico. Informe o nome do sistema, o motivo da solicitação e a função que irá desempenhar. Pedidos simples são analisados em até 3 dias úteis. Sistemas críticos podem exigir autorização do gestor imediato e podem levar até 7 dias úteis."
+    "question": "How can I request access to a new system?",
+    "answer": "To request access to a system, open a ticket in the Technical Support portal. Provide the system name, the reason for the request, and the role you will perform. Simple requests are reviewed within 3 business days. Critical systems may require authorization from your immediate manager and can take up to 7 business days."
   },
   {
-    "question": "Qual é a política de trabalho remoto da empresa?",
-    "answer": "A empresa adota um modelo de trabalho híbrido. Os colaboradores podem trabalhar de casa até dois dias por semana, com aprovação prévia do gestor. É necessário garantir um ambiente adequado e conexão estável à internet. O horário central de colaboração é das 9h às 15h, horário de Brasília."
+    "question": "What is the company's remote work policy?",
+    "answer": "The company follows a hybrid work model. Employees may work from home up to two days per week, with prior approval from their manager. A suitable environment and a stable internet connection are required. Core collaboration hours are 9 AM to 3 PM, Brasília time."
   },
   {
-    "question": "Como faço para enviar um relatório de reembolso?",
-    "answer": "Relatórios de reembolso devem ser enviados pelo sistema de gestão de despesas corporativas. É obrigatório anexar comprovantes fiscais, classificar os gastos corretamente e descrever o motivo de cada despesa. O envio deve ser feito em até 15 dias após a data do gasto. Gastos acima de R$500 exigem justificativa adicional e aprovação da liderança."
+    "question": "How do I submit an expense reimbursement report?",
+    "answer": "Reimbursement reports must be submitted through the corporate expense management system. Receipts must be attached, expenses must be classified correctly, and the reason for each expense must be described. Submission must be made within 15 days of the expense date. Expenses over R$500 require additional justification and approval from leadership."
   },
   {
-    "question": "Qual é o procedimento para relatar um incidente de segurança?",
-    "answer": "Ao identificar um incidente de segurança, entre em contato imediatamente com a equipe de Segurança da Informação pelo e-mail seguranca@empresa.com ou pelo canal de emergência disponível 24h. Não tente resolver o problema por conta própria. Anote os detalhes relevantes, como data, hora e sistemas afetados. A equipe responsável coordenará os próximos passos."
+    "question": "What is the procedure for reporting a security incident?",
+    "answer": "When you identify a security incident, contact the Information Security team immediately at security@company.com or through the 24-hour emergency channel. Do not attempt to resolve the issue on your own. Note relevant details, such as date, time, and affected systems. The responsible team will coordinate the next steps."
   }
 ]

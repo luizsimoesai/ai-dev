@@ -6,7 +6,7 @@ client = OpenAI()
 
 response = client.responses.create(
     model="gpt-4.1",
-    input="Escreva uma frase sobre Inteligência Artificial."
+    input="Write a sentence about Artificial Intelligence."
 )
 
 print(response.output_text)

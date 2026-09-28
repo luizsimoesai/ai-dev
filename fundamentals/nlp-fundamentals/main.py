@@ -1,5 +1,5 @@
 def main():
-    print("Hello from proc-linguagem!")
+    print("Hello from nlp-fundamentals!")
 
 
 if __name__ == "__main__":

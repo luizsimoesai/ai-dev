@@ -1,18 +1,18 @@
 ## MCP - Model Context Protocol
 
-Recipes `1-server-setup` a `4-mcp-with-docker` adaptadas do crash course de MCP do Dave Ebbelaar: veja `link.txt`.
+Recipes `1-server-setup` through `4-mcp-with-docker` adapted from Dave Ebbelaar's MCP crash course: see `link.txt`.
 
-*'Estamos disponibilizando o Model Context Protocol (MCP), um novo padrão para conectar assistentes de IA aos sistemas onde os dados residem.'*   
+*'We're introducing the Model Context Protocol (MCP), a new standard for connecting AI assistants to the systems where data lives.'*   
  Anthropic: https://www.anthropic.com/news/model-context-protocol.
 
 
 <p align="center">
-  <img src="https://images.ctfassets.net/xqb1f63q68s1/2x3R1j8peZzdnweb5m1RK3/a8628561358334a605e7f291560fc7cc/MCP_learning_center_image_1-min__1_.png" alt="Modelo de arquitetura" width="600"/>
+  <img src="https://images.ctfassets.net/xqb1f63q68s1/2x3R1j8peZzdnweb5m1RK3/a8628561358334a605e7f291560fc7cc/MCP_learning_center_image_1-min__1_.png" alt="Architecture diagram" width="600"/>
   <br>
   <em>What is MCP? - https://www.descope.com/learn/post/mcp</em>
 </p>
 
-- Protocolo. Forma padronizada de disponibilizar ferramentas e recursos para LLMs.
+- Protocol. A standardized way to expose tools and resources to LLMs.
 - Servidores MCP: https://github.com/modelcontextprotocol/servers
 - OpenAI: https://openai.github.io/openai-agents-python/mcp/
 - 'Why MCP won?' - https://www.latent.space/p/why-mcp-won

@@ -1,7 +1,7 @@
 # https://ollama.com/blog/web-search
 
 from dotenv import load_dotenv
-load_dotenv(dotenv_path="../.env", override=True)
+load_dotenv(override=True)
 
 import ollama  # noqa: E402
 

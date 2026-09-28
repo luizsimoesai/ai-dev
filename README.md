@@ -11,4 +11,4 @@ This repository is a collection of practical, copy/paste-ready recipes for build
 - `tools/` — supporting tooling: uv, deployment (Docker, Google Cloud), scraping, Python utilities.
 - `_archive/` — content outside the scope of AI recipes (general Python/dev tutorials, third-party course copies), kept for reference.
 
-Each leaf folder carries its own `requirements.txt` (and `.env.example` where relevant) — no shared dependency file across recipes.
+Each code recipe carries its own `requirements.txt` (and `.env.example` where relevant) — no shared dependency file across recipes.

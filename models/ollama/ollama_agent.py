@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-load_dotenv(dotenv_path="../.env", override=True)
+load_dotenv(override=True)
 
 from ollama import chat, web_fetch, web_search  # noqa: E402
 

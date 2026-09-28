@@ -1,6 +1,6 @@
 ## MCP - Model Context Protocol
 
-
+Recipes `1-server-setup` a `4-mcp-with-docker` adaptadas do crash course de MCP do Dave Ebbelaar: veja `link.txt`.
 
 *'Estamos disponibilizando o Model Context Protocol (MCP), um novo padrão para conectar assistentes de IA aos sistemas onde os dados residem.'*   
  Anthropic: https://www.anthropic.com/news/model-context-protocol.

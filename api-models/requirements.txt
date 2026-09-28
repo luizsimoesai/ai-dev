@@ -1,7 +1,0 @@
-python-dotenv
-ipykernel
-requests
-arxiv
-openai
-ollama
-anthropic

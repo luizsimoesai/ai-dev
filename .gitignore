@@ -103,3 +103,6 @@ temp/
 
 # Exclude Qdrant data
 qdrant_data/
+
+# Exclude local superpowers planning docs
+docs/superpowers/

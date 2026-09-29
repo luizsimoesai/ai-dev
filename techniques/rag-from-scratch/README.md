@@ -7,4 +7,4 @@ RAG pipeline built by hand, without a framework, combining the pieces from the o
 - `fundamentals/vector-database` → storage and search
 - `techniques/prompt-engineering` → building the final prompt with the retrieved context
 
-Framework-based versions (LangChain) live in other projects: `agentic-rag`, `langchain-nextjs-fastapi-template`.
+A framework-based (LangChain) version lives in `techniques/agentic-rag`. Another one lives in the separate `langchain-nextjs-fastapi-template` project.

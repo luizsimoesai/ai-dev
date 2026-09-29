@@ -18,3 +18,4 @@ response = classifier.invoke({
 })
 
 urgency = response.nouls["urgent"].noul
+print(urgency)

@@ -2,13 +2,13 @@ from typing import Dict
 
 from fastapi import FastAPI
 
-from app.routers import produto, usuario
+from app.routers import product, user
 
 # Criando o App
 app = FastAPI()
 
-app.include_router(produto.router)
-app.include_router(usuario.router)
+app.include_router(product.router)
+app.include_router(user.router)
 
 MENSAGEM_HOME: str = "Bem-vindo à API de Recomendação de Produtos"
 

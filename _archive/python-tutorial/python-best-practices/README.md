@@ -60,11 +60,11 @@ Este projeto é uma API criada com FastAPI para recomendação de produtos basea
 ├── app
 │   ├── main.py              # Arquivo principal que inicia o FastAPI
 │   ├── models               # Modelos Pydantic usados pela API
-│   │   ├── models_produtos.py
-│   │   └── models_usuarios.py
+│   │   ├── models_products.py
+│   │   └── models_users.py
 │   ├── routers              # Arquivos contendo os roteadores de usuários e produtos
-│   │   ├── routers_produtos.py
-│   │   └── routers_usuarios.py
+│   │   ├── routers_products.py
+│   │   └── routers_users.py
 ├── tests
 │   └── test_api.py          # Testes para a API
 ├── venv                     # Ambiente virtual

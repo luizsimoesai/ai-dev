@@ -2,8 +2,8 @@ from typing import Dict, List
 
 from fastapi import APIRouter, HTTPException
 
-from app.routers.usuario import usuarios
-from app.schemas.produto import CriarProduto, HistoricoCompras, Preferencias, Produto
+from app.routers.user import usuarios
+from app.schemas.product import CriarProduto, HistoricoCompras, Preferencias, Produto
 
 router = APIRouter()
 

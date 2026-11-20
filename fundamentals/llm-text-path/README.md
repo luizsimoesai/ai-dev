@@ -14,7 +14,7 @@ The model is [`Qwen/Qwen2.5-0.5B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-
 
 | File | What it shows |
 |---|---|
-| `1-chat-template-and-tokens.py` | The model's spec sheet (vocabulary, vector size, blocks, parameters); how the chat template flattens `system`/`user` messages into one text; how that text becomes token IDs; why codes like `SKU-7XQ9-2B` cost many tokens. |
+| `1-chat-template-and-tokens.py` | The model's spec sheet (vocabulary, vector size, blocks, parameters); how the chat template flattens `system`/`user` messages into one text; how that text becomes token IDs; why codes like `A-10432` cost many tokens; the same sentence in English, Portuguese, Spanish and Japanese; a multi-turn support conversation; the default system message the template adds; and how markers typed by a user can open a fake turn. |
 | `2-embeddings.py` | The embedding table (one vector per token) and cosine similarity: `' Paris'` lands closer to other cities than to `' banana'` or `' guitar'`. Saves a bar chart. |
 | `3-transformer-blocks.py` | The 24 blocks in action. A "logit lens" reads the model's guess after each block: noise early on, then `'berra'` and `' Canberra'` in blocks 22 and 23, just before the final choice. Also shows which input tokens the last position attended to. Saves two charts. |
 | `4-logits-and-sampling.py` | Logits for all ~152k tokens; how temperature (0.3, 1.0, 1.5) concentrates or spreads probability; how top-k and top-p cut the candidates before the draw. Saves a chart of the top 20 candidates. |

@@ -106,3 +106,5 @@ qdrant_data/
 
 # Exclude local superpowers planning docs
 docs/superpowers/
+# Exclude archived content (third-party course copies, kept locally only)
+_archive/

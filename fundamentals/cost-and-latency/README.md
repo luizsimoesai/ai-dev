@@ -16,6 +16,7 @@ every result file records its date.
 | `1-accuracy.py` | 10 questions x 3 runs x 2 models x 2 statement sizes (120 calls). Grades every answer against the value computed in Python, counts the questions whose answer varied between runs, and reports tokens, cost and time per call. Question 8 is ambiguous on purpose (is a transfer to savings an expense?). Saves `results/accuracy-*.json`. |
 | `2-latency.py` | Streams one question in three settings: reasoning on (shows work), reasoning on (number only), reasoning off (number only). Times the first token of the answer and the whole call, counts reasoning and answer tokens, reads the cost and grades the answer (36 calls). Saves `results/latency.json`. |
 | `3-one-call.py` | One call per model: input, cached input, output and reasoning tokens, the cost the API reports, and the estimate from the list price. |
+| `4-read-results.py` | No API calls: reads the saved accuracy results and shows, for the ambiguous question 8, which total each answer gave and whether it said which rule it used, plus the average answer length per model. |
 | `common.py` | Models, statements, the ten questions with their expected answers, and the API client. |
 
 ## Run
@@ -27,6 +28,7 @@ uv run --with-requirements requirements.txt 0-prices.py
 uv run --with-requirements requirements.txt 1-accuracy.py
 uv run --with-requirements requirements.txt 2-latency.py
 uv run --with-requirements requirements.txt 3-one-call.py
+uv run --with-requirements requirements.txt 4-read-results.py
 ```
 
 A full run of `1-accuracy.py` cost about US$ 0.15 on 2026-11-21; `2-latency.py`

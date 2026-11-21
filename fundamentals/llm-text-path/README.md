@@ -19,6 +19,7 @@ The model is [`Qwen/Qwen2.5-0.5B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-
 | `3-transformer-blocks.py` | The 24 blocks in action: the model's layout (14 attention heads, vectors of 896 numbers, a feed-forward network of 4,864); a "logit lens" that reads the model's guess after each block: noise early on, then `'berra'` and `' Canberra'` in blocks 22 and 23, just before the final choice; which input tokens the last position attended to; the causal mask, with two contract clauses that only differ after `' it'` and give the same `' it'` vector in every block; how different words *before* `' it'` pull its vectors apart; and why attention pairs grow with the square of the length. Saves two charts. |
 | `4-logits-and-sampling.py` | Logits for all ~152k tokens; how temperature (0.3, 1.0, 1.5) concentrates or spreads probability; how top-k and top-p cut the candidates before the draw. Then two travel requests, a fixed answer (Lisbon's airport code) and a creative one (something to do on a rainy afternoon): how many candidates `top_k=50` and `top_p=0.9` keep at each temperature (top-k always 50; top-p from 1 to thousands), and four whole answers per setting. Saves two charts: the top 20 candidates for the lab question, and top-p on the creative request. |
 | `5-generation-loop.py` | The autoregressive loop written by hand: draw a token, append it, run the model again, stop at `<|im_end|>`. Prints the probability of every token drawn. Then the same loop completes a Python function (`is_palindrome`) one token at a time, showing the top 3 candidates and the growing input at each step; shows that the model keeps writing if the program ignores the end token; and samples six completions (one per seed) and runs each one against five test cases: 4 of 6 pass. Saves a chart. |
+| `6-training-and-inference.py` | A customer-support assistant. A store policy in the context changes the answer, but a hash of every weight shows nothing changed. Six SGD steps on one example change the weights: the loss falls from 0.780 to 0.004, the model now says 45 days for returns, and also says shipping takes "45 business days" (a side effect). Then times prefill vs decode with and without the KV cache. `--with-base` also compares the base model `Qwen/Qwen2.5-0.5B` (one extra ~1 GB download). The training section peaks at about 6 GB of memory. |
 | `utils/common.py` | Shared settings (model, question, temperature, top-k, top-p, seed) and helpers. **Edit the settings here**; every script picks them up. |
 
 Each script loads the model on its own, so they can run in any order; the numbering follows the path of the text.
@@ -36,6 +37,7 @@ uv run 2-embeddings.py
 uv run 3-transformer-blocks.py
 uv run 4-logits-and-sampling.py
 uv run 5-generation-loop.py
+uv run 6-training-and-inference.py              # add --with-base to compare with the base model
 ```
 
 Charts are saved to `output/` (ignored by Git) and also open in a window when a display is available. To only save them, prefix the command with `MPLBACKEND=Agg`.

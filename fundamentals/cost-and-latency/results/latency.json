@@ -1,0 +1,473 @@
+{
+  "date": "2026-11-21",
+  "results": [
+    {
+      "model": "anthropic/claude-haiku-5.5",
+      "statement": "3 months",
+      "setting": "reasoning, shows work",
+      "expected": 637.09,
+      "right": 3,
+      "runs": [
+        {
+          "first_answer_s": 2.228760958998464,
+          "total_s": 3.4398143340004026,
+          "input_tokens": 5613,
+          "reasoning_tokens": 438,
+          "answer_tokens": 422,
+          "cost": 0.0009913,
+          "provider": "Claude Platform on AWS",
+          "answer": 637.09
+        },
+        {
+          "first_answer_s": 2.1324582080051186,
+          "total_s": 2.383698791003553,
+          "input_tokens": 5613,
+          "reasoning_tokens": 436,
+          "answer_tokens": 75,
+          "cost": 0.0008168,
+          "provider": "Claude Platform on AWS",
+          "answer": 637.09
+        },
+        {
+          "first_answer_s": 2.659115083006327,
+          "total_s": 3.0159608330068295,
+          "input_tokens": 5613,
+          "reasoning_tokens": 559,
+          "answer_tokens": 87,
+          "cost": 0.0008843,
+          "provider": "Claude Platform on AWS",
+          "answer": 637.09
+        }
+      ]
+    },
+    {
+      "model": "anthropic/claude-haiku-5.5",
+      "statement": "3 months",
+      "setting": "reasoning, number only",
+      "expected": 637.09,
+      "right": 3,
+      "runs": [
+        {
+          "first_answer_s": 2.2162605420016916,
+          "total_s": 2.2780257499980507,
+          "input_tokens": 5635,
+          "reasoning_tokens": 485,
+          "answer_tokens": 16,
+          "cost": 0.000814,
+          "provider": "Claude Platform on AWS",
+          "answer": 637.09
+        },
+        {
+          "first_answer_s": 3.0647802079984103,
+          "total_s": 3.1353585830001975,
+          "input_tokens": 5635,
+          "reasoning_tokens": 671,
+          "answer_tokens": 16,
+          "cost": 0.000907,
+          "provider": "Claude Platform on AWS",
+          "answer": 637.09
+        },
+        {
+          "first_answer_s": 3.4465978749940405,
+          "total_s": 3.4480330839942326,
+          "input_tokens": 5635,
+          "reasoning_tokens": 671,
+          "answer_tokens": 16,
+          "cost": 0.000907,
+          "provider": "Claude Platform on AWS",
+          "answer": 637.09
+        }
+      ]
+    },
+    {
+      "model": "anthropic/claude-haiku-5.5",
+      "statement": "3 months",
+      "setting": "no reasoning, number",
+      "expected": 637.09,
+      "right": 0,
+      "runs": [
+        {
+          "first_answer_s": 0.8696275410038652,
+          "total_s": 0.9632765830028802,
+          "input_tokens": 5634,
+          "reasoning_tokens": 0,
+          "answer_tokens": 16,
+          "cost": 0.0005714,
+          "provider": "Claude Platform on AWS",
+          "answer": 571.76
+        },
+        {
+          "first_answer_s": 0.8446834579954157,
+          "total_s": 0.9748146249985439,
+          "input_tokens": 5634,
+          "reasoning_tokens": 0,
+          "answer_tokens": 16,
+          "cost": 0.0005714,
+          "provider": "Claude Platform on AWS",
+          "answer": 689.44
+        },
+        {
+          "first_answer_s": 0.9975530000010622,
+          "total_s": 1.129372791001515,
+          "input_tokens": 5634,
+          "reasoning_tokens": 0,
+          "answer_tokens": 16,
+          "cost": 0.0005714,
+          "provider": "Claude Platform on AWS",
+          "answer": 599.62
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "statement": "3 months",
+      "setting": "reasoning, shows work",
+      "expected": 637.09,
+      "right": 3,
+      "runs": [
+        {
+          "first_answer_s": 4.08635166699969,
+          "total_s": 4.182164375000866,
+          "input_tokens": 3892,
+          "reasoning_tokens": 240,
+          "answer_tokens": 28,
+          "cost": 0.00017319,
+          "provider": "OpenAI",
+          "answer": 637.09
+        },
+        {
+          "first_answer_s": 3.9701207500038436,
+          "total_s": 4.075180292005825,
+          "input_tokens": 3892,
+          "reasoning_tokens": 239,
+          "answer_tokens": 28,
+          "cost": 0.00017269,
+          "provider": "OpenAI",
+          "answer": 637.09
+        },
+        {
+          "first_answer_s": 3.913703083002474,
+          "total_s": 3.993666750000557,
+          "input_tokens": 3892,
+          "reasoning_tokens": 238,
+          "answer_tokens": 27,
+          "cost": 0.00017169,
+          "provider": "OpenAI",
+          "answer": 637.09
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "statement": "3 months",
+      "setting": "reasoning, number only",
+      "expected": 637.09,
+      "right": 3,
+      "runs": [
+        {
+          "first_answer_s": 3.981279709005321,
+          "total_s": 4.107221375001245,
+          "input_tokens": 3904,
+          "reasoning_tokens": 221,
+          "answer_tokens": 14,
+          "cost": 0.00015681,
+          "provider": "OpenAI",
+          "answer": 637.09
+        },
+        {
+          "first_answer_s": 3.808593625006324,
+          "total_s": 3.916030292006326,
+          "input_tokens": 3904,
+          "reasoning_tokens": 218,
+          "answer_tokens": 14,
+          "cost": 0.00015531,
+          "provider": "OpenAI",
+          "answer": 637.09
+        },
+        {
+          "first_answer_s": 3.8435089170016,
+          "total_s": 3.930077083998185,
+          "input_tokens": 3904,
+          "reasoning_tokens": 260,
+          "answer_tokens": 14,
+          "cost": 0.00017631,
+          "provider": "OpenAI",
+          "answer": 637.09
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "statement": "3 months",
+      "setting": "no reasoning, number",
+      "expected": 637.09,
+      "right": 0,
+      "runs": [
+        {
+          "first_answer_s": 0.9421372910001082,
+          "total_s": 1.1237214580032742,
+          "input_tokens": 3904,
+          "reasoning_tokens": 0,
+          "answer_tokens": 12,
+          "cost": 4.531e-05,
+          "provider": "OpenAI",
+          "answer": 619.09
+        },
+        {
+          "first_answer_s": 1.0291582079953514,
+          "total_s": 1.212410499996622,
+          "input_tokens": 3904,
+          "reasoning_tokens": 0,
+          "answer_tokens": 12,
+          "cost": 4.531e-05,
+          "provider": "OpenAI",
+          "answer": 636.09
+        },
+        {
+          "first_answer_s": 1.9150282080008765,
+          "total_s": 1.9172204170026816,
+          "input_tokens": 3904,
+          "reasoning_tokens": 0,
+          "answer_tokens": 12,
+          "cost": 4.531e-05,
+          "provider": "OpenAI",
+          "answer": 618.89
+        }
+      ]
+    },
+    {
+      "model": "anthropic/claude-haiku-5.5",
+      "statement": "12 months",
+      "setting": "reasoning, shows work",
+      "expected": 555.5,
+      "right": 3,
+      "runs": [
+        {
+          "first_answer_s": 2.5467623750009807,
+          "total_s": 3.6739632910030195,
+          "input_tokens": 21707,
+          "reasoning_tokens": 378,
+          "answer_tokens": 396,
+          "cost": 0.0025577,
+          "provider": "Claude Platform on AWS",
+          "answer": 555.5
+        },
+        {
+          "first_answer_s": 3.818055333002121,
+          "total_s": 4.922193416001392,
+          "input_tokens": 21707,
+          "reasoning_tokens": 958,
+          "answer_tokens": 396,
+          "cost": 0.0028477,
+          "provider": "Claude Platform on AWS",
+          "answer": 555.5
+        },
+        {
+          "first_answer_s": 2.4524017079966143,
+          "total_s": 3.594348082995566,
+          "input_tokens": 21707,
+          "reasoning_tokens": 481,
+          "answer_tokens": 396,
+          "cost": 0.0026092,
+          "provider": "Claude Platform on AWS",
+          "answer": 555.5
+        }
+      ]
+    },
+    {
+      "model": "anthropic/claude-haiku-5.5",
+      "statement": "12 months",
+      "setting": "reasoning, number only",
+      "expected": 555.5,
+      "right": 3,
+      "runs": [
+        {
+          "first_answer_s": 2.2406157920049736,
+          "total_s": 2.242524958004651,
+          "input_tokens": 21729,
+          "reasoning_tokens": 448,
+          "answer_tokens": 16,
+          "cost": 0.0024049,
+          "provider": "Claude Platform on AWS",
+          "answer": 555.5
+        },
+        {
+          "first_answer_s": 3.11321974999737,
+          "total_s": 3.1657954580005025,
+          "input_tokens": 21729,
+          "reasoning_tokens": 651,
+          "answer_tokens": 16,
+          "cost": 0.0025064,
+          "provider": "Claude Platform on AWS",
+          "answer": 555.5
+        },
+        {
+          "first_answer_s": 2.110431499997503,
+          "total_s": 2.141187583001738,
+          "input_tokens": 21729,
+          "reasoning_tokens": 393,
+          "answer_tokens": 16,
+          "cost": 0.0023774,
+          "provider": "Claude Platform on AWS",
+          "answer": 555.5
+        }
+      ]
+    },
+    {
+      "model": "anthropic/claude-haiku-5.5",
+      "statement": "12 months",
+      "setting": "no reasoning, number",
+      "expected": 555.5,
+      "right": 2,
+      "runs": [
+        {
+          "first_answer_s": 0.9335894169998937,
+          "total_s": 2.1402750839988585,
+          "input_tokens": 21728,
+          "reasoning_tokens": 0,
+          "answer_tokens": 412,
+          "cost": 0.0023788,
+          "provider": "Claude Platform on AWS",
+          "answer": 555.5
+        },
+        {
+          "first_answer_s": 0.9490578749973793,
+          "total_s": 1.083904375002021,
+          "input_tokens": 21728,
+          "reasoning_tokens": 0,
+          "answer_tokens": 16,
+          "cost": 0.0021808,
+          "provider": "Claude Platform on AWS",
+          "answer": 620.44
+        },
+        {
+          "first_answer_s": 0.8005933750027907,
+          "total_s": 2.234346709003148,
+          "input_tokens": 21728,
+          "reasoning_tokens": 0,
+          "answer_tokens": 500,
+          "cost": 0.0024228,
+          "provider": "Claude Platform on AWS",
+          "answer": 555.5
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "statement": "12 months",
+      "setting": "reasoning, shows work",
+      "expected": 555.5,
+      "right": 3,
+      "runs": [
+        {
+          "first_answer_s": 4.229011874995194,
+          "total_s": 4.3352089589971,
+          "input_tokens": 14981,
+          "reasoning_tokens": 225,
+          "answer_tokens": 28,
+          "cost": 0.00027658,
+          "provider": "OpenAI",
+          "answer": 555.5
+        },
+        {
+          "first_answer_s": 7.781365208000352,
+          "total_s": 7.990614166999876,
+          "input_tokens": 14981,
+          "reasoning_tokens": 321,
+          "answer_tokens": 28,
+          "cost": 0.00032458,
+          "provider": "OpenAI",
+          "answer": 555.5
+        },
+        {
+          "first_answer_s": 4.177718416998687,
+          "total_s": 4.29636324999592,
+          "input_tokens": 14981,
+          "reasoning_tokens": 230,
+          "answer_tokens": 14,
+          "cost": 0.00027208,
+          "provider": "OpenAI",
+          "answer": 555.5
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "statement": "12 months",
+      "setting": "reasoning, number only",
+      "expected": 555.5,
+      "right": 2,
+      "runs": [
+        {
+          "first_answer_s": 4.99078549999831,
+          "total_s": 5.111634291999508,
+          "input_tokens": 14993,
+          "reasoning_tokens": 195,
+          "answer_tokens": 14,
+          "cost": 0.0002547,
+          "provider": "OpenAI",
+          "answer": 496.85
+        },
+        {
+          "first_answer_s": 4.606145249999827,
+          "total_s": 4.7109695420003845,
+          "input_tokens": 14993,
+          "reasoning_tokens": 218,
+          "answer_tokens": 14,
+          "cost": 0.0002662,
+          "provider": "OpenAI",
+          "answer": 555.5
+        },
+        {
+          "first_answer_s": 3.9472274170038872,
+          "total_s": 4.062225458001194,
+          "input_tokens": 14993,
+          "reasoning_tokens": 229,
+          "answer_tokens": 14,
+          "cost": 0.0002717,
+          "provider": "OpenAI",
+          "answer": 555.5
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "statement": "12 months",
+      "setting": "no reasoning, number",
+      "expected": 555.5,
+      "right": 0,
+      "runs": [
+        {
+          "first_answer_s": 0.9898743750018184,
+          "total_s": 1.1541309579988592,
+          "input_tokens": 14993,
+          "reasoning_tokens": 0,
+          "answer_tokens": 12,
+          "cost": 0.00188005,
+          "provider": "OpenAI",
+          "answer": 660.16
+        },
+        {
+          "first_answer_s": 1.071895041000971,
+          "total_s": 1.2718234580024728,
+          "input_tokens": 14993,
+          "reasoning_tokens": 0,
+          "answer_tokens": 12,
+          "cost": 0.0001562,
+          "provider": "OpenAI",
+          "answer": 555.25
+        },
+        {
+          "first_answer_s": 1.0023790830018697,
+          "total_s": 1.1820015410048654,
+          "input_tokens": 14993,
+          "reasoning_tokens": 0,
+          "answer_tokens": 12,
+          "cost": 0.0001562,
+          "provider": "OpenAI",
+          "answer": 558.56
+        }
+      ]
+    }
+  ]
+}

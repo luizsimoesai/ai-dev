@@ -1,0 +1,54 @@
+   40 clauses  anthropic/claude-haiku-5.5  needle run 1  answer 47  expected 47  US$ 0.0004  1.1s
+   40 clauses  anthropic/claude-haiku-5.5  needle run 2  answer 47  expected 47  US$ 0.0004  1.0s
+   40 clauses  anthropic/claude-haiku-5.5  needle run 3  answer 47  expected 47  US$ 0.0004  1.1s
+   40 clauses  anthropic/claude-haiku-5.5  count  run 1  answer 8  expected 8  US$ 0.0006  2.0s
+   40 clauses  anthropic/claude-haiku-5.5  count  run 2  answer 8  expected 8  US$ 0.0006  1.8s
+   40 clauses  anthropic/claude-haiku-5.5  count  run 3  answer 8  expected 8  US$ 0.0006  1.9s
+   40 clauses  openai/gpt-6-luna           needle run 1  answer 47  expected 47  US$ 0.0003  1.4s
+   40 clauses  openai/gpt-6-luna           needle run 2  answer 47  expected 47  US$ 0.0000  2.4s
+   40 clauses  openai/gpt-6-luna           needle run 3  answer 47  expected 47  US$ 0.0000  1.2s
+   40 clauses  openai/gpt-6-luna           count  run 1  answer 8  expected 8  US$ 0.0003  3.8s
+   40 clauses  openai/gpt-6-luna           count  run 2  answer 8  expected 8  US$ 0.0001  3.3s
+   40 clauses  openai/gpt-6-luna           count  run 3  answer 8  expected 8  US$ 0.0001  2.8s
+  480 clauses  anthropic/claude-haiku-5.5  needle run 1  answer 47  expected 47  US$ 0.0048  1.8s
+  480 clauses  anthropic/claude-haiku-5.5  needle run 2  answer 47  expected 47  US$ 0.0048  1.6s
+  480 clauses  anthropic/claude-haiku-5.5  needle run 3  answer 47  expected 47  US$ 0.0048  1.4s
+  480 clauses  anthropic/claude-haiku-5.5  count  run 1  answer 127  expected 127  US$ 0.0058  7.8s
+  480 clauses  anthropic/claude-haiku-5.5  count  run 2  answer 126  expected 127  US$ 0.0073  18.2s
+  480 clauses  anthropic/claude-haiku-5.5  count  run 3  answer 122  expected 127  US$ 0.0056  7.2s
+  480 clauses  openai/gpt-6-luna           needle run 1  answer 47  expected 47  US$ 0.0036  3.1s
+  480 clauses  openai/gpt-6-luna           needle run 2  answer 47  expected 47  US$ 0.0003  4.3s
+  480 clauses  openai/gpt-6-luna           needle run 3  answer 47  expected 47  US$ 0.0003  2.5s
+  480 clauses  openai/gpt-6-luna           count  run 1  answer 127  expected 127  US$ 0.0040  7.2s
+  480 clauses  openai/gpt-6-luna           count  run 2  answer 125  expected 127  US$ 0.0007  6.9s
+  480 clauses  openai/gpt-6-luna           count  run 3  answer 126  expected 127  US$ 0.0007  7.9s
+ 1600 clauses  anthropic/claude-haiku-5.5  needle run 1  answer 47  expected 47  US$ 0.0784  2.9s
+ 1600 clauses  anthropic/claude-haiku-5.5  needle run 2  answer 47  expected 47  US$ 0.0783  2.4s
+ 1600 clauses  anthropic/claude-haiku-5.5  needle run 3  answer 47  expected 47  US$ 0.0783  1.6s
+ 1600 clauses  anthropic/claude-haiku-5.5  count  run 1  answer 373  expected 412  US$ 0.0913  20.5s
+ 1600 clauses  anthropic/claude-haiku-5.5  count  run 2  answer 384  expected 412  US$ 0.0919  20.0s
+ 1600 clauses  anthropic/claude-haiku-5.5  count  run 3  answer 375  expected 412  US$ 0.0908  19.5s
+ 1600 clauses  openai/gpt-6-luna           needle run 1  answer 47  expected 47  US$ 0.0119  3.3s
+ 1600 clauses  openai/gpt-6-luna           needle run 2  answer 47  expected 47  US$ 0.0010  2.4s
+ 1600 clauses  openai/gpt-6-luna           needle run 3  answer 47  expected 47  US$ 0.0010  1.6s
+ 1600 clauses  openai/gpt-6-luna           count  run 1  answer 407  expected 412  US$ 0.0146  51.6s
+ 1600 clauses  openai/gpt-6-luna           count  run 2  answer 400  expected 412  US$ 0.0024  32.9s
+ 1600 clauses  openai/gpt-6-luna           count  run 3  answer 404  expected 412  US$ 0.0026  30.3s
+ 4800 clauses  anthropic/claude-haiku-5.5  needle run 1  answer 47  expected 47  US$ 0.2346  8.3s
+ 4800 clauses  anthropic/claude-haiku-5.5  count  run 1  answer None  expected 1216  US$ 0.2743  64.1s
+Traceback (most recent call last):
+  File "/Users/luizsimoes/Developer/projects/ai-dev/fundamentals/context-window/2-long-context.py", line 36, in <module>
+    resp = api.chat.completions.create(model=model, max_tokens=MAX_TOKENS, messages=[
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luizsimoes/.cache/uv/archive-v0/PU_J5MFhPf3yGUak/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luizsimoes/.cache/uv/archive-v0/PU_J5MFhPf3yGUak/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/luizsimoes/.cache/uv/archive-v0/PU_J5MFhPf3yGUak/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/luizsimoes/.cache/uv/archive-v0/PU_J5MFhPf3yGUak/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.

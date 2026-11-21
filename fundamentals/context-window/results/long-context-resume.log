@@ -1,0 +1,24 @@
+ 4800 clauses  openai/gpt-6-luna           needle run 1  answer 47  expected 47  US$ 0.0715  4.5s
+ 4800 clauses  openai/gpt-6-luna           count  run 1  answer 1200  expected 1216  US$ 0.0731  22.9s
+
+Summary (2026-11-21): right answers per setting, contract size, input tokens (where recorded), total cost
+
+clauses  characters  model                       question   in tok  right  answers         US$ total
+     40      12,991  anthropic/claude-haiku-5.5  needle          -  3/3  47, 47, 47 (exp. 47) 0.0012
+     40      12,991  anthropic/claude-haiku-5.5  count           -  3/3  8, 8, 8 (exp. 8) 0.0018
+     40      12,991  openai/gpt-6-luna           needle          -  3/3  47, 47, 47 (exp. 47) 0.0003
+     40      12,991  openai/gpt-6-luna           count           -  3/3  8, 8, 8 (exp. 8) 0.0005
+    480     157,564  anthropic/claude-haiku-5.5  needle          -  3/3  47, 47, 47 (exp. 47) 0.0144
+    480     157,564  anthropic/claude-haiku-5.5  count           -  1/3  127, 126, 122 (exp. 127) 0.0187
+    480     157,564  openai/gpt-6-luna           needle          -  3/3  47, 47, 47 (exp. 47) 0.0042
+    480     157,564  openai/gpt-6-luna           count           -  1/3  127, 125, 126 (exp. 127) 0.0054
+  1,600     523,896  anthropic/claude-haiku-5.5  needle          -  3/3  47, 47, 47 (exp. 47) 0.2350
+  1,600     523,896  anthropic/claude-haiku-5.5  count           -  0/3  373, 384, 375 (exp. 412) 0.2740
+  1,600     523,896  openai/gpt-6-luna           needle          -  3/3  47, 47, 47 (exp. 47) 0.0139
+  1,600     523,896  openai/gpt-6-luna           count           -  0/3  407, 400, 404 (exp. 412) 0.0196
+  4,800   1,571,053  anthropic/claude-haiku-5.5  needle          -  1/1  47 (exp. 47)    0.2346
+  4,800   1,571,053  anthropic/claude-haiku-5.5  count           -  0/1  none (exp. 1216) 0.2743
+  4,800   1,571,053  openai/gpt-6-luna           needle    285,757  1/1  47 (exp. 47)    0.0715
+  4,800   1,571,053  openai/gpt-6-luna           count     285,751  0/1  1200 (exp. 1216) 0.0731
+
+Total cost of this run: US$ 1.2425

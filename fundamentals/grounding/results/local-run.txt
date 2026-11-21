@@ -1,0 +1,34 @@
+Qwen/Qwen2.5-0.5B-Instruct (2026-11-21)
+
+no manual
+  How long is the warranty?                   not as the manual     The warranty period for the Brisa D-300 dehumidifier typically ranges 
+  What does error code E4 mean?               not as the manual     Error code E4 typically indicates that there is an issue with the sens
+  How often should I clean the air filter?    not as the manual     The frequency of cleaning the air filter for the Brisa D-300 dehumidif  [numbers not in manual: 15]
+  What is the default target humidity?        not as the manual     The default target humidity for the Brisa D-300 dehumidifier is 45%. T  [numbers not in manual: 45]
+  Can I use detergent to clean the filter?    not as the manual     Yes, you can use detergent to clean the filter of the Brisa D-300 dehu
+  What is the noise level in decibels?        invented              The noise level of the Brisa D-300 dehumidifier typically ranges from   [numbers not in manual: 45, 60]
+  Does it connect to a phone app over Wi-Fi?  invented              The Brisa D-300 dehumidifier is designed to be connected via a mobile 
+  What does error code E9 mean?               invented              Error code E9 typically indicates that there is an issue with the sens  [numbers not in manual: 9]
+  not as the manual: 5, invented: 3
+
+manual + rule
+  How long is the warranty?                   grounded              The Brisa D-300 has a 24-month warranty from the date of purchase.
+  What does error code E4 mean?               grounded              Error code E4 indicates that the air filter is blocked, requiring clea
+  How often should I clean the air filter?    grounded              The manual states that you should clean the air filter every 2 weeks w
+  What is the default target humidity?        grounded              The default target humidity for the Brisa D-300 Dehumidifier is 50%.
+  Can I use detergent to clean the filter?    grounded              No, you cannot use detergent to clean the air filter on your Brisa D-3
+  What is the noise level in decibels?        invented              The noise level in decibels for the Brisa D-300 Dehumidifier is approx  [numbers not in manual: 85]
+  Does it connect to a phone app over Wi-Fi?  invented              No, the Brisa D-300 does not connect to a phone app over Wi-Fi.
+  What does error code E9 mean?               invented              Error code E9 indicates that the humidification system is malfunctioni  [numbers not in manual: 9]
+  grounded: 5, invented: 3
+
+manual + rule + example
+  How long is the warranty?                   grounded              The Brisa D-300 has a 24-month warranty from the date of purchase. The
+  What does error code E4 mean?               grounded              Error code E4 means that the air filter is blocked.
+  How often should I clean the air filter?    false absence         The manual does not cover this.
+  What is the default target humidity?        grounded              The default target humidity for the Brisa D-300 is 50%.
+  Can I use detergent to clean the filter?    false absence         The manual does not cover this.
+  What is the noise level in decibels?        acknowledged absence  The manual does not cover this.
+  Does it connect to a phone app over Wi-Fi?  acknowledged absence  No, the manual does not mention that the Brisa D-300 connects to a pho
+  What does error code E9 mean?               invented              Error code E9 means that the humidity sensor is faulty.  [numbers not in manual: 9]
+  grounded: 3, false absence: 2, acknowledged absence: 2, invented: 1

@@ -1,0 +1,69 @@
+Reasoning on (2026-11-21)
+
+anthropic/claude-haiku-5.5, no manual
+  How long is the warranty?                   says it doesn't know  I don't have reliable warranty information for the Brisa D-300, so ple
+  What does error code E4 mean?               says it doesn't know  I don't have reliable information on the Brisa D-300's E4 code, so ple
+  How often should I clean the air filter?    says it doesn't know  I don't have the Brisa D-300's manual, so I can't confirm its exact sc
+  What is the default target humidity?        says it doesn't know  I don't have reliable information on the Brisa D-300's factory default  [numbers not in manual: 60]
+  Can I use detergent to clean the filter?    says it doesn't know  I don't have the Brisa D-300's manual, but most dehumidifier filters c
+  What is the noise level in decibels?        says it doesn't know  I don't have reliable specifications for the Brisa D-300's noise level
+  Does it connect to a phone app over Wi-Fi?  says it doesn't know  I don't have reliable details on whether the Brisa D-300 supports Wi-F
+  What does error code E9 mean?               says it doesn't know  I don't have reliable information on what error code E9 means for the   [numbers not in manual: 9]
+  says it doesn't know: 8
+
+anthropic/claude-haiku-5.5, manual + rule
+  How long is the warranty?                   grounded              The Brisa D-300 has a 24-month warranty from the date of purchase.
+  What does error code E4 mean?               grounded              E4 means the air filter is blocked, and the manual says to clean the f
+  How often should I clean the air filter?    grounded              Clean the air filter every 2 weeks with lukewarm water.
+  What is the default target humidity?        grounded              The default target humidity is 50%.
+  Can I use detergent to clean the filter?    grounded              No, the manual says not to use detergents; clean the filter with lukew
+  What is the noise level in decibels?        acknowledged absence  The manual does not cover this.
+  Does it connect to a phone app over Wi-Fi?  acknowledged absence  The manual does not cover this.
+  What does error code E9 mean?               acknowledged absence  The manual does not cover this.
+  grounded: 5, acknowledged absence: 3
+
+anthropic/claude-haiku-5.5, manual + rule + example
+  How long is the warranty?                   grounded              The Brisa D-300 has a 24-month warranty from the date of purchase.
+  What does error code E4 mean?               grounded              E4 means the air filter is blocked, so you should clean the filter.
+  How often should I clean the air filter?    grounded              Clean the air filter every 2 weeks with lukewarm water, without using 
+  What is the default target humidity?        grounded              The default target humidity is 50%.
+  Can I use detergent to clean the filter?    grounded              No, the manual says not to use detergents on the filter, and doing so 
+  What is the noise level in decibels?        acknowledged absence  The manual does not cover this.
+  Does it connect to a phone app over Wi-Fi?  acknowledged absence  The manual does not cover this.
+  What does error code E9 mean?               acknowledged absence  The manual does not cover this.
+  grounded: 5, acknowledged absence: 3
+
+openai/gpt-6-luna, no manual
+  How long is the warranty?                   matches manual, no source The Brisa D-300 comes with a two-year warranty.
+  What does error code E4 mean?               not as the manual     On the Brisa D-300, E4 indicates that the water tank is full or not se
+  How often should I clean the air filter?    matches manual, no source Clean the Brisa D-300’s air filter about every two weeks.
+  What is the default target humidity?        matches manual, no source The Brisa D-300’s default target humidity is 50% RH.
+  Can I use detergent to clean the filter?    matches manual, no source No—clean the Brisa D-300’s filter with water only, without detergent.
+  What is the noise level in decibels?        invented              The Brisa D-300 dehumidifier has a noise level of 45 dB.  [numbers not in manual: 45]
+  Does it connect to a phone app over Wi-Fi?  invented              No—the Brisa D-300 does not connect to a phone app over Wi‑Fi.
+  What does error code E9 mean?               invented              Error code E9 on the Brisa D-300 indicates a humidity-sensor fault.  [numbers not in manual: 9]
+  matches manual, no source: 4, not as the manual: 1, invented: 3
+
+openai/gpt-6-luna, manual + rule
+  How long is the warranty?                   grounded              The Brisa D-300 has a 24-month warranty from the date of purchase.
+  What does error code E4 mean?               grounded              E4 means the air filter is blocked; clean the filter.
+  How often should I clean the air filter?    grounded              Clean the air filter every 2 weeks with lukewarm water.
+  What is the default target humidity?        grounded              The default target humidity is 50%.
+  Can I use detergent to clean the filter?    grounded              No, clean the filter with lukewarm water only and do not use detergent
+  What is the noise level in decibels?        acknowledged absence  The manual does not cover this.
+  Does it connect to a phone app over Wi-Fi?  acknowledged absence  The manual does not cover this.
+  What does error code E9 mean?               acknowledged absence  The manual does not cover this.
+  grounded: 5, acknowledged absence: 3
+
+openai/gpt-6-luna, manual + rule + example
+  How long is the warranty?                   grounded              The warranty is 24 months from the date of purchase.
+  What does error code E4 mean?               grounded              Error code E4 means the air filter is blocked; clean the filter.
+  How often should I clean the air filter?    grounded              Clean the air filter every 2 weeks.
+  What is the default target humidity?        grounded              The default target humidity is 50%.
+  Can I use detergent to clean the filter?    grounded              No, do not use detergents to clean the filter.
+  What is the noise level in decibels?        acknowledged absence  The manual does not cover this.
+  Does it connect to a phone app over Wi-Fi?  acknowledged absence  The manual does not cover this.
+  What does error code E9 mean?               acknowledged absence  The manual does not cover this.
+  grounded: 5, acknowledged absence: 3
+
+Total cost: US$ 0.0042

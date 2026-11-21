@@ -1,0 +1,189 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "date": "2026-11-21",
+  "rows": [
+    {
+      "setting": "no manual",
+      "question": "How long is the warranty?",
+      "label": "not as the manual",
+      "numbers_not_in_manual": [],
+      "answer": "The warranty period for the Brisa D-300 dehumidifier typically ranges from 2 to 5 years, depending on the model and specific usage conditions. This ensures that users can enjoy peace of mind knowing their equipment will be well-maintained and protected against potential issues or mal"
+    },
+    {
+      "setting": "no manual",
+      "question": "What does error code E4 mean?",
+      "label": "not as the manual",
+      "numbers_not_in_manual": [],
+      "answer": "Error code E4 typically indicates that there is an issue with the sensor or control system of the Brisa D-300 dehumidifier, likely due to a malfunctioning moisture sensor or incorrect settings for humidity control. This could result in the device not functioning properly and may require repair or"
+    },
+    {
+      "setting": "no manual",
+      "question": "How often should I clean the air filter?",
+      "label": "not as the manual",
+      "numbers_not_in_manual": [
+        "15"
+      ],
+      "answer": "The frequency of cleaning the air filter for the Brisa D-300 dehumidifier depends on its usage and maintenance practices. Generally, it is recommended to clean the air filter every 6 months or after using it for at least 15 minutes per day. This ensures that the"
+    },
+    {
+      "setting": "no manual",
+      "question": "What is the default target humidity?",
+      "label": "not as the manual",
+      "numbers_not_in_manual": [
+        "45"
+      ],
+      "answer": "The default target humidity for the Brisa D-300 dehumidifier is 45%. This setting ensures that the air conditioning system operates at optimal performance and maintains a comfortable indoor environment."
+    },
+    {
+      "setting": "no manual",
+      "question": "Can I use detergent to clean the filter?",
+      "label": "not as the manual",
+      "numbers_not_in_manual": [],
+      "answer": "Yes, you can use detergent to clean the filter of the Brisa D-300 dehumidifier. This is because many dehumidifiers come with filters that need regular cleaning to maintain optimal performance and prevent dust buildup. Using detergent will help remove any dirt or debris from the filter"
+    },
+    {
+      "setting": "no manual",
+      "question": "What is the noise level in decibels?",
+      "label": "invented",
+      "numbers_not_in_manual": [
+        "45",
+        "60"
+      ],
+      "answer": "The noise level of the Brisa D-300 dehumidifier typically ranges from 45 to 60 decibels (dB), depending on its specific model and operating conditions. This range allows for comfortable use while maintaining good air quality."
+    },
+    {
+      "setting": "no manual",
+      "question": "Does it connect to a phone app over Wi-Fi?",
+      "label": "invented",
+      "numbers_not_in_manual": [],
+      "answer": "The Brisa D-300 dehumidifier is designed to be connected via a mobile app for easy control and monitoring of its humidity levels, making it user-friendly and convenient for homeowners or individuals looking to manage their indoor air quality effectively."
+    },
+    {
+      "setting": "no manual",
+      "question": "What does error code E9 mean?",
+      "label": "invented",
+      "numbers_not_in_manual": [
+        "9"
+      ],
+      "answer": "Error code E9 typically indicates that there is an issue with the sensor or control system of the Brisa D-300 dehumidifier, which could be due to a malfunctioning sensor, faulty wiring, or incorrect settings on the control panel. This can lead to reduced performance or even"
+    },
+    {
+      "setting": "manual + rule",
+      "question": "How long is the warranty?",
+      "label": "grounded",
+      "numbers_not_in_manual": [],
+      "answer": "The Brisa D-300 has a 24-month warranty from the date of purchase."
+    },
+    {
+      "setting": "manual + rule",
+      "question": "What does error code E4 mean?",
+      "label": "grounded",
+      "numbers_not_in_manual": [],
+      "answer": "Error code E4 indicates that the air filter is blocked, requiring cleaning."
+    },
+    {
+      "setting": "manual + rule",
+      "question": "How often should I clean the air filter?",
+      "label": "grounded",
+      "numbers_not_in_manual": [],
+      "answer": "The manual states that you should clean the air filter every 2 weeks with lukewarm water."
+    },
+    {
+      "setting": "manual + rule",
+      "question": "What is the default target humidity?",
+      "label": "grounded",
+      "numbers_not_in_manual": [],
+      "answer": "The default target humidity for the Brisa D-300 Dehumidifier is 50%."
+    },
+    {
+      "setting": "manual + rule",
+      "question": "Can I use detergent to clean the filter?",
+      "label": "grounded",
+      "numbers_not_in_manual": [],
+      "answer": "No, you cannot use detergent to clean the air filter on your Brisa D-300 dehumidifier."
+    },
+    {
+      "setting": "manual + rule",
+      "question": "What is the noise level in decibels?",
+      "label": "invented",
+      "numbers_not_in_manual": [
+        "85"
+      ],
+      "answer": "The noise level in decibels for the Brisa D-300 Dehumidifier is approximately 85 dB."
+    },
+    {
+      "setting": "manual + rule",
+      "question": "Does it connect to a phone app over Wi-Fi?",
+      "label": "invented",
+      "numbers_not_in_manual": [],
+      "answer": "No, the Brisa D-300 does not connect to a phone app over Wi-Fi."
+    },
+    {
+      "setting": "manual + rule",
+      "question": "What does error code E9 mean?",
+      "label": "invented",
+      "numbers_not_in_manual": [
+        "9"
+      ],
+      "answer": "Error code E9 indicates that the humidification system is malfunctioning or faulty."
+    },
+    {
+      "setting": "manual + rule + example",
+      "question": "How long is the warranty?",
+      "label": "grounded",
+      "numbers_not_in_manual": [],
+      "answer": "The Brisa D-300 has a 24-month warranty from the date of purchase. The warranty does not cover damage caused by using detergents on the air filter."
+    },
+    {
+      "setting": "manual + rule + example",
+      "question": "What does error code E4 mean?",
+      "label": "grounded",
+      "numbers_not_in_manual": [],
+      "answer": "Error code E4 means that the air filter is blocked."
+    },
+    {
+      "setting": "manual + rule + example",
+      "question": "How often should I clean the air filter?",
+      "label": "false absence",
+      "numbers_not_in_manual": [],
+      "answer": "The manual does not cover this."
+    },
+    {
+      "setting": "manual + rule + example",
+      "question": "What is the default target humidity?",
+      "label": "grounded",
+      "numbers_not_in_manual": [],
+      "answer": "The default target humidity for the Brisa D-300 is 50%."
+    },
+    {
+      "setting": "manual + rule + example",
+      "question": "Can I use detergent to clean the filter?",
+      "label": "false absence",
+      "numbers_not_in_manual": [],
+      "answer": "The manual does not cover this."
+    },
+    {
+      "setting": "manual + rule + example",
+      "question": "What is the noise level in decibels?",
+      "label": "acknowledged absence",
+      "numbers_not_in_manual": [],
+      "answer": "The manual does not cover this."
+    },
+    {
+      "setting": "manual + rule + example",
+      "question": "Does it connect to a phone app over Wi-Fi?",
+      "label": "acknowledged absence",
+      "numbers_not_in_manual": [],
+      "answer": "No, the manual does not mention that the Brisa D-300 connects to a phone app over Wi-Fi."
+    },
+    {
+      "setting": "manual + rule + example",
+      "question": "What does error code E9 mean?",
+      "label": "invented",
+      "numbers_not_in_manual": [
+        "9"
+      ],
+      "answer": "Error code E9 means that the humidity sensor is faulty."
+    }
+  ]
+}

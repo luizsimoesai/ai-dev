@@ -1,0 +1,668 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "date": "2026-11-21",
+  "prompt only": [
+    {
+      "rows": [
+        {
+          "date": "2026-10-07",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-10-07",
+          "description": "SHOPZONE ONLINE",
+          "category": "shopping",
+          "amount": "-16.94"
+        },
+        {
+          "date": "2026-10-07",
+          "description": "STREAMFLIX",
+          "category": "subscriptions",
+          "amount": "-15.49"
+        },
+        {
+          "date": "2026-10-07",
+          "description": "TACO RAPIDO",
+          "category": "restaurants",
+          "amount": "-20.19"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-10-07\", \"description\": \"METRO TRANSIT\", \"amount\": 2.75, \"category\": \"entertainment\"}, {\"date\": \"2026-10-07\", \"description\": \"SHOPZONE ONLINE\", \"amount\": -16.94, \"category\": \"groceries\"}, {\"date\": \"2026-10-07\", \"description\": \"STREAMFLIX\", \"amount\": -15.49, \"category\": \"entertainment\"}, {\"date\": \"2026-10-07\", \"description\": \"TACO RAPIDO\", \"amount\": -20.19, \"category\": \"groceries\"}]}"
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-09-12",
+          "description": "CINEPLEX 9",
+          "category": "entertainment",
+          "amount": "-28.64"
+        },
+        {
+          "date": "2026-09-12",
+          "description": "CITY POWER & LIGHT",
+          "category": "utilities",
+          "amount": "-89.25"
+        },
+        {
+          "date": "2026-09-12",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-09-12",
+          "description": "SUSHI KOBO",
+          "category": "restaurants",
+          "amount": "-47.06"
+        }
+      ],
+      "text": "{\n  \"transactions\": [\n    {\n      \"date\": \"2026-09-12\",\n      \"description\": \"CINEPLEX 9\",\n      \"amount\": -28.64,\n      \"category\": \"entertainment\"\n    },\n    {\n      \"date\": \"2026-09-12\",\n      \"description\": \"METRO TRANSIT\",\n      \"amount\": -2.75,\n      \"category\": \"transportation\"\n    },\n    {\n      \"date\": \"2026-09-12\",\n      \"description\": \"SUSHI KOBO\",\n      \"amount\": -47.06,\n      \"category\": \"groceries\"\n    }\n  ]\n}"
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-10-10",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-10-11",
+          "description": "TUNEWAVE MUSIC",
+          "category": "subscriptions",
+          "amount": "-10.99"
+        },
+        {
+          "date": "2026-10-12",
+          "description": "CITY POWER & LIGHT",
+          "category": "utilities",
+          "amount": "-121.55"
+        },
+        {
+          "date": "2026-10-13",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-10-13",
+          "description": "SHOPZONE ONLINE",
+          "category": "shopping",
+          "amount": "-139.50"
+        },
+        {
+          "date": "2026-10-15",
+          "description": "AQUA CITY WATER",
+          "category": "utilities",
+          "amount": "-46.27"
+        }
+      ],
+      "text": "{\n  \"transactions\": [\n    {\n      \"date\": \"2026-10-10\",\n      \"description\": \"METRO TRANSIT\",\n      \"amount\": -2.75,\n      \"category\": \"entertainment\"\n    },\n    {\n      \"date\": \"2026-10-11\",\n      \"description\": \"TUNEWAVE MUSIC\",\n      \"amount\": -10.99,\n      \"category\": \"groceries\"\n    },\n    {\n      \"date\": \"2026-10-12\",\n      \"description\": \"CITY POWER & LIGHT\",\n      \"amount\": -121.55,\n      \"category\": \"health\"\n    },\n    {\n      \"date\": \"2026-10-13\",\n      \"description\": \"METRO TRANSIT\",\n      \"amount\": -2.75,\n      \"category\": \"entertainment\"\n    },\n    {\n      \"date\": \"2026-10-13\",\n      \"description\": \"SHOPZONE ONLINE\",\n      \"amount\": -139.50,\n      \"category\": \"groceries\"\n    },\n    {\n      \"date\": \"2026-10-15\",\n      \"description\": \"AQUA CITY WATER\",\n      \"amount\": -46.27,\n      \"category\": \"utilities\"\n    }\n  ]\n}"
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-10-09",
+          "description": "BEAN THERE COFFEE",
+          "category": "restaurants",
+          "amount": "-5.30"
+        },
+        {
+          "date": "2026-10-09",
+          "description": "CINEPLEX 9",
+          "category": "entertainment",
+          "amount": "-12.41"
+        },
+        {
+          "date": "2026-10-09",
+          "description": "CORNER BAKERY CO",
+          "category": "groceries",
+          "amount": "-7.62"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-10-09\", \"description\": \"BEAN THERE COFFEE\", \"amount\": 5.30, \"category\": \"entertainment\"}, {\"date\": \"2026-10-09\", \"description\": \"CINEPLEX 9\", \"amount\": -12.41, \"category\": \"groceries\"}, {\"date\": \"2026-10-09\", \"description\": \"CORNER BAKERY CO\", \"amount\": -7.62, \"category\": \"groceries\"}]}"
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-09-27",
+          "description": "FRESHMART #212",
+          "category": "groceries",
+          "amount": "-83.46"
+        },
+        {
+          "date": "2026-09-27",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-09-27",
+          "description": "RIDEGO TRIP",
+          "category": "transport",
+          "amount": "-34.53"
+        }
+      ],
+      "text": "{\n  \"transactions\": [\n    {\n      \"date\": \"2026-09-27\",\n      \"description\": \"FRESHMART #212\",\n      \"amount\": -83.46,\n      \"category\": \"groceries\"\n    },\n    {\n      \"date\": \"2026-09-27\",\n      \"description\": \"METRO TRANSIT\",\n      \"amount\": -2.75,\n      \"category\": \"transport\"\n    },\n    {\n      \"date\": \"2026-09-27\",\n      \"description\": \"RIDEGO TRIP\",\n      \"amount\": -34.53,\n      \"category\": \"rent\"\n    }\n  ]\n}"
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-10-03",
+          "description": "RIDEGO TRIP",
+          "category": "transport",
+          "amount": "-29.05"
+        },
+        {
+          "date": "2026-10-03",
+          "description": "SKYWAY AIRLINES",
+          "category": "transport",
+          "amount": "-386.40"
+        },
+        {
+          "date": "2026-10-04",
+          "description": "FRESHMART #212",
+          "category": "groceries",
+          "amount": "-59.35"
+        },
+        {
+          "date": "2026-10-04",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-10-04",
+          "description": "RIDEGO TRIP",
+          "category": "transport",
+          "amount": "-32.95"
+        }
+      ],
+      "text": "```json\n[\n    {\n        \"date\": \"2026-10-03\",\n        \"description\": \"RIDEGO TRIP\",\n        \"amount\": -29.05,\n        \"category\": \"entertainment\"\n    },\n    {\n        \"date\": \"2026-10-03\",\n        \"description\": \"SKYWAY AIRLINES\",\n        \"amount\": -386.40,\n        \"category\": \"rent\"\n    },\n    {\n        \"date\": \"2026-10-04\",\n        \"description\": \"FRESHMART #212\",\n        \"amount\": -59.35,\n        \"category\": \"groceries\"\n    },\n    {\n        \"date\": \"2026-10-04\",\n        \"description\": \"METRO TRANSIT\",\n        \"amount\": -2.75,\n        \"category\": \"transport\"\n    },\n    {\n        \"date\": \"2026-10-04\",\n        \"description\": \"RIDEGO TRIP\",\n        \"amount\": -32.95,\n        \"category\": \"subscriptions\"\n    }\n]\n```"
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-08-23",
+          "description": "CLOUDBOX STORAGE",
+          "category": "subscriptions",
+          "amount": "-2.99"
+        },
+        {
+          "date": "2026-08-23",
+          "description": "GREENLEAF ORGANIC MARKET",
+          "category": "groceries",
+          "amount": "-53.85"
+        },
+        {
+          "date": "2026-08-23",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-08-24",
+          "description": "LUIGI'S TRATTORIA",
+          "category": "restaurants",
+          "amount": "-47.22"
+        }
+      ],
+      "text": "{\n  \"transactions\": [\n    {\n      \"date\": \"2026-08-23\",\n      \"description\": \"CLOUDBOX STORAGE\",\n      \"amount\": -2.99,\n      \"category\": \"entertainment\"\n    },\n    {\n      \"date\": \"2026-08-23\",\n      \"description\": \"GREENLEAF ORGANIC MARKET\",\n      \"amount\": -53.85,\n      \"category\": \"groceries\"\n    },\n    {\n      \"date\": \"2026-08-23\",\n      \"description\": \"METRO TRANSIT\",\n      \"amount\": -2.75,\n      \"category\": \"transportation\"\n    },\n    {\n      \"date\": \"2026-08-24\",\n      \"description\": \"LUIGI'S TRATTORIA\",\n      \"amount\": -47.22,\n      \"category\": \"restaurants\"\n    }\n  ]\n}"
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-10-02",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-10-02",
+          "description": "SHOPZONE ONLINE",
+          "category": "shopping",
+          "amount": "-100.85"
+        },
+        {
+          "date": "2026-10-03",
+          "description": "IRONWORKS GYM",
+          "category": "health",
+          "amount": "-42.00"
+        },
+        {
+          "date": "2026-10-03",
+          "description": "RIDEGO TRIP",
+          "category": "transport",
+          "amount": "-29.05"
+        },
+        {
+          "date": "2026-10-03",
+          "description": "SKYWAY AIRLINES",
+          "category": "transport",
+          "amount": "-386.40"
+        },
+        {
+          "date": "2026-10-04",
+          "description": "FRESHMART #212",
+          "category": "groceries",
+          "amount": "-59.35"
+        }
+      ],
+      "text": "{\n  \"transactions\": [\n    {\n      \"date\": \"2026-10-02\",\n      \"description\": \"METRO TRANSIT\",\n      \"amount\": -2.75,\n      \"category\": \"entertainment\"\n    },\n    {\n      \"date\": \"2026-10-03\",\n      \"description\": \"IRONWORKS GYM\",\n      \"amount\": -42.00,\n      \"category\": \"health\"\n    },\n    {\n      \"date\": \"2026-10-03\",\n      \"description\": \"RIDEGO TRIP\",\n      \"amount\": -29.05,\n      \"category\": \"transport\"\n    },\n    {\n      \"date\": \"2026-10-03\",\n      \"description\": \"SKYWAY AIRLINES\",\n      \"amount\": -386.40,\n      \"category\": \"utilities\"\n    },\n    {\n      \"date\": \"2026-10-04\",\n      \"description\": \"FRESHMART #212\",\n      \"amount\": -59.35,\n      \"category\": \"groceries\"\n    }\n  ]\n}"
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-09-16",
+          "description": "CORNER BAKERY CO",
+          "category": "groceries",
+          "amount": "-13.99"
+        },
+        {
+          "date": "2026-09-17",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-09-18",
+          "description": "FIBERLINK INTERNET",
+          "category": "utilities",
+          "amount": "-59.90"
+        },
+        {
+          "date": "2026-09-18",
+          "description": "RIDEGO TRIP",
+          "category": "transport",
+          "amount": "-30.34"
+        },
+        {
+          "date": "2026-09-19",
+          "description": "GREENLEAF ORGANIC MARKET",
+          "category": "groceries",
+          "amount": "-43.64"
+        },
+        {
+          "date": "2026-09-20",
+          "description": "ACME CORP PAYROLL",
+          "category": "income",
+          "amount": "3250.00"
+        }
+      ],
+      "text": "{\n  \"transactions\": [\n    {\n      \"date\": \"2026-09-16\",\n      \"description\": \"CORNER BAKERY CO\",\n      \"amount\": -13.99,\n      \"category\": \"entertainment\"\n    },\n    {\n      \"date\": \"2026-09-17\",\n      \"description\": \"METRO TRANSIT\",\n      \"amount\": -2.75,\n      \"category\": \"transportation\"\n    },\n    {\n      \"date\": \"2026-09-18\",\n      \"description\": \"FIBERLINK INTERNET\",\n      \"amount\": -59.90,\n      \"category\": \"internet service\"\n    },\n    {\n      \"date\": \"2026-09-18\",\n      \"description\": \"RIDEGO TRIP\",\n      \"amount\": -30.34,\n      \"category\": \"transportation\"\n    },\n    {\n      \"date\": \"2026-09-19\",\n      \"description\": \"GREENLEAF ORGANIC MARKET\",\n      \"amount\": -43.64,\n      \"category\": \"groceries\"\n    },\n    {\n      \"date\": \"2026-09-20\",\n      \"description\": \"ACME CORP PAYROLL\",\n      \"amount\": 3250.00,\n      \"category\": \"income\"\n    }\n  ]\n}"
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-08-30",
+          "description": "BEAN THERE COFFEE",
+          "category": "restaurants",
+          "amount": "-5.35"
+        },
+        {
+          "date": "2026-08-30",
+          "description": "BOOKNOOK",
+          "category": "shopping",
+          "amount": "-25.58"
+        },
+        {
+          "date": "2026-08-30",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-08-30",
+          "description": "SHOPZONE ONLINE",
+          "category": "shopping",
+          "amount": "-106.06"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-08-30\", \"description\": \"BEAN THERE COFFEE\", \"amount\": 5.35, \"category\": \"entertainment\"}, {\"date\": \"2026-08-30\", \"description\": \"BOOKNOOK\", \"amount\": -25.58, \"category\": \"groceries\"}, {\"date\": \"2026-08-30\", \"description\": \"METRO TRANSIT\", \"amount\": -2.75, \"category\": \"transport\"}, {\"date\": \"2026-08-30\", \"description\": \"SHOPZONE ONLINE\", \"amount\": -106.06, \"category\": \"subscriptions\"}]}"
+    }
+  ],
+  "constrained": [
+    {
+      "rows": [
+        {
+          "date": "2026-10-07",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-10-07",
+          "description": "SHOPZONE ONLINE",
+          "category": "shopping",
+          "amount": "-16.94"
+        },
+        {
+          "date": "2026-10-07",
+          "description": "STREAMFLIX",
+          "category": "subscriptions",
+          "amount": "-15.49"
+        },
+        {
+          "date": "2026-10-07",
+          "description": "TACO RAPIDO",
+          "category": "restaurants",
+          "amount": "-20.19"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-10-07\", \"description\": \"METRO TRANSIT\", \"amount\": 2.75, \"category\": \"entertainment\"}, {\"date\": \"2026-10-07\", \"description\": \"SHOPZONE ONLINE\", \"amount\": -16.94, \"category\": \"groceries\"}, {\"date\": \"2026-10-07\", \"description\": \"STREAMFLIX\", \"amount\": -15.49, \"category\": \"entertainment\"}, {\"date\": \"2026-10-07\", \"description\": \"TACO RAPIDO\", \"amount\": -20.19, \"category\": \"groceries\"}]}",
+      "model_calls": 104,
+      "forced_tokens": 66
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-09-12",
+          "description": "CINEPLEX 9",
+          "category": "entertainment",
+          "amount": "-28.64"
+        },
+        {
+          "date": "2026-09-12",
+          "description": "CITY POWER & LIGHT",
+          "category": "utilities",
+          "amount": "-89.25"
+        },
+        {
+          "date": "2026-09-12",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-09-12",
+          "description": "SUSHI KOBO",
+          "category": "restaurants",
+          "amount": "-47.06"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-09-12\", \"description\": \"CINEPLEX 9\", \"amount\": 28.64, \"category\": \"entertainment\"}, {\"date\": \"2026-09-12\", \"description\": \"CITY POWER & LIGHT\", \"amount\": -89.25, \"category\": \"groceries\"}, {\"date\": \"2026-09-12\", \"description\": \"METRO TRANSIT\", \"amount\": -2.75, \"category\": \"transport\"}, {\"date\": \"2026-09-12\", \"description\": \"SUSHI KOBO\", \"amount\": -47.06, \"category\": \"groceries\"}]}",
+      "model_calls": 106,
+      "forced_tokens": 66
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-10-10",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-10-11",
+          "description": "TUNEWAVE MUSIC",
+          "category": "subscriptions",
+          "amount": "-10.99"
+        },
+        {
+          "date": "2026-10-12",
+          "description": "CITY POWER & LIGHT",
+          "category": "utilities",
+          "amount": "-121.55"
+        },
+        {
+          "date": "2026-10-13",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-10-13",
+          "description": "SHOPZONE ONLINE",
+          "category": "shopping",
+          "amount": "-139.50"
+        },
+        {
+          "date": "2026-10-15",
+          "description": "AQUA CITY WATER",
+          "category": "utilities",
+          "amount": "-46.27"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-10-10\", \"description\": \"METRO TRANSIT\", \"amount\": 2.75, \"category\": \"entertainment\"}, {\"date\": \"2026-10-11\", \"description\": \"TUNEWAVE MUSIC\", \"amount\": -10.99, \"category\": \"entertainment\"}, {\"date\": \"2026-10-12\", \"description\": \"CITY POWER & LIGHT\", \"amount\": -121.55, \"category\": \"entertainment\"}, {\"date\": \"2026-10-13\", \"description\": \"METRO TRANSIT\", \"amount\": -2.75, \"category\": \"entertainment\"}, {\"date\": \"2026-10-13\", \"description\": \"SHOPZONE ONLINE\", \"amount\": -139.50, \"category\": \"groceries\"}, {\"date\": \"2026-10-15\", \"description\": \"AQUA CITY WATER\", \"amount\": -46.27, \"category\": \"utilities\"}]}",
+      "model_calls": 158,
+      "forced_tokens": 98
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-10-09",
+          "description": "BEAN THERE COFFEE",
+          "category": "restaurants",
+          "amount": "-5.30"
+        },
+        {
+          "date": "2026-10-09",
+          "description": "CINEPLEX 9",
+          "category": "entertainment",
+          "amount": "-12.41"
+        },
+        {
+          "date": "2026-10-09",
+          "description": "CORNER BAKERY CO",
+          "category": "groceries",
+          "amount": "-7.62"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-10-09\", \"description\": \"BEAN THERE COFFEE\", \"amount\": 5.30, \"category\": \"entertainment\"}, {\"date\": \"2026-10-09\", \"description\": \"CINEPLEX 9\", \"amount\": -12.41, \"category\": \"groceries\"}, {\"date\": \"2026-10-09\", \"description\": \"CORNER BAKERY CO\", \"amount\": -7.62, \"category\": \"groceries\"}]}",
+      "model_calls": 82,
+      "forced_tokens": 50
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-09-27",
+          "description": "FRESHMART #212",
+          "category": "groceries",
+          "amount": "-83.46"
+        },
+        {
+          "date": "2026-09-27",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-09-27",
+          "description": "RIDEGO TRIP",
+          "category": "transport",
+          "amount": "-34.53"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-09-27\", \"description\": \"FRESHMART #212\", \"amount\": 83.46, \"category\": \"groceries\"}, {\"date\": \"2026-09-27\", \"description\": \"METRO TRANSIT\", \"amount\": -2.75, \"category\": \"transport\"}, {\"date\": \"2026-09-27\", \"description\": \"RIDEGO TRIP\", \"amount\": -34.53, \"category\": \"transport\"}]}",
+      "model_calls": 81,
+      "forced_tokens": 50
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-10-03",
+          "description": "RIDEGO TRIP",
+          "category": "transport",
+          "amount": "-29.05"
+        },
+        {
+          "date": "2026-10-03",
+          "description": "SKYWAY AIRLINES",
+          "category": "transport",
+          "amount": "-386.40"
+        },
+        {
+          "date": "2026-10-04",
+          "description": "FRESHMART #212",
+          "category": "groceries",
+          "amount": "-59.35"
+        },
+        {
+          "date": "2026-10-04",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-10-04",
+          "description": "RIDEGO TRIP",
+          "category": "transport",
+          "amount": "-32.95"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-10-03\", \"description\": \"RIDEGO TRIP\", \"amount\": 29.05, \"category\": \"entertainment\"}, {\"date\": \"2026-10-04\", \"description\": \"FRESHMART #212\", \"amount\": -59.35, \"category\": \"groceries\"}, {\"date\": \"2026-10-04\", \"description\": \"METRO TRANSIT\", \"amount\": -2.75, \"category\": \"transport\"}, {\"date\": \"2026-10-04\", \"description\": \"RIDEGO TRIP\", \"amount\": -32.95, \"category\": \"groceries\"}]}",
+      "model_calls": 109,
+      "forced_tokens": 66
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-08-23",
+          "description": "CLOUDBOX STORAGE",
+          "category": "subscriptions",
+          "amount": "-2.99"
+        },
+        {
+          "date": "2026-08-23",
+          "description": "GREENLEAF ORGANIC MARKET",
+          "category": "groceries",
+          "amount": "-53.85"
+        },
+        {
+          "date": "2026-08-23",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-08-24",
+          "description": "LUIGI'S TRATTORIA",
+          "category": "restaurants",
+          "amount": "-47.22"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-08-23\", \"description\": \"CLOUDBOX STORAGE\", \"amount\": 2.99, \"category\": \"entertainment\"}, {\"date\": \"2026-08-23\", \"description\": \"GREENLEAF ORGANIC MARKET\", \"amount\": -53.85, \"category\": \"groceries\"}, {\"date\": \"2026-08-23\", \"description\": \"METRO TRANSIT\", \"amount\": -2.75, \"category\": \"transport\"}, {\"date\": \"2026-08-24\", \"description\": \"LUIGI'S TRATTORIA\", \"amount\": -47.22, \"category\": \"restaurants\"}]}",
+      "model_calls": 110,
+      "forced_tokens": 66
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-10-02",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-10-02",
+          "description": "SHOPZONE ONLINE",
+          "category": "shopping",
+          "amount": "-100.85"
+        },
+        {
+          "date": "2026-10-03",
+          "description": "IRONWORKS GYM",
+          "category": "health",
+          "amount": "-42.00"
+        },
+        {
+          "date": "2026-10-03",
+          "description": "RIDEGO TRIP",
+          "category": "transport",
+          "amount": "-29.05"
+        },
+        {
+          "date": "2026-10-03",
+          "description": "SKYWAY AIRLINES",
+          "category": "transport",
+          "amount": "-386.40"
+        },
+        {
+          "date": "2026-10-04",
+          "description": "FRESHMART #212",
+          "category": "groceries",
+          "amount": "-59.35"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-10-02\", \"description\": \"METRO TRANSIT\", \"amount\": 2.75, \"category\": \"entertainment\"}, {\"date\": \"2026-10-03\", \"description\": \"IRONWORKS GYM\", \"amount\": -42.00, \"category\": \"groceries\"}, {\"date\": \"2026-10-03\", \"description\": \"RIDEGO TRIP\", \"amount\": -29.05, \"category\": \"transport\"}, {\"date\": \"2026-10-03\", \"description\": \"SKYWAY AIRLINES\", \"amount\": -386.40, \"category\": \"utilities\"}, {\"date\": \"2026-10-04\", \"description\": \"FRESHMART #212\", \"amount\": -59.35, \"category\": \"groceries\"}]}",
+      "model_calls": 137,
+      "forced_tokens": 82
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-09-16",
+          "description": "CORNER BAKERY CO",
+          "category": "groceries",
+          "amount": "-13.99"
+        },
+        {
+          "date": "2026-09-17",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-09-18",
+          "description": "FIBERLINK INTERNET",
+          "category": "utilities",
+          "amount": "-59.90"
+        },
+        {
+          "date": "2026-09-18",
+          "description": "RIDEGO TRIP",
+          "category": "transport",
+          "amount": "-30.34"
+        },
+        {
+          "date": "2026-09-19",
+          "description": "GREENLEAF ORGANIC MARKET",
+          "category": "groceries",
+          "amount": "-43.64"
+        },
+        {
+          "date": "2026-09-20",
+          "description": "ACME CORP PAYROLL",
+          "category": "income",
+          "amount": "3250.00"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-09-16\", \"description\": \"CORNER BAKERY CO\", \"amount\": -13.99, \"category\": \"entertainment\"}, {\"date\": \"2026-09-17\", \"description\": \"METRO TRANSIT\", \"amount\": -2.75, \"category\": \"transport\"}, {\"date\": \"2026-09-18\", \"description\": \"FIBERLINK INTERNET\", \"amount\": -59.90, \"category\": \"utilities\"}, {\"date\": \"2026-09-18\", \"description\": \"RIDEGO TRIP\", \"amount\": -30.34, \"category\": \"transport\"}, {\"date\": \"2026-09-19\", \"description\": \"GREENLEAF ORGANIC MARKET\", \"amount\": -43.64, \"category\": \"groceries\"}, {\"date\": \"2026-09-20\", \"description\": \"ACME CORP PAYROLL\", \"amount\": 3250.00, \"category\": \"income\"}]}",
+      "model_calls": 165,
+      "forced_tokens": 98
+    },
+    {
+      "rows": [
+        {
+          "date": "2026-08-30",
+          "description": "BEAN THERE COFFEE",
+          "category": "restaurants",
+          "amount": "-5.35"
+        },
+        {
+          "date": "2026-08-30",
+          "description": "BOOKNOOK",
+          "category": "shopping",
+          "amount": "-25.58"
+        },
+        {
+          "date": "2026-08-30",
+          "description": "METRO TRANSIT",
+          "category": "transport",
+          "amount": "-2.75"
+        },
+        {
+          "date": "2026-08-30",
+          "description": "SHOPZONE ONLINE",
+          "category": "shopping",
+          "amount": "-106.06"
+        }
+      ],
+      "text": "{\"transactions\": [{\"date\": \"2026-08-30\", \"description\": \"BEAN THERE COFFEE\", \"amount\": 5.35, \"category\": \"entertainment\"}, {\"date\": \"2026-08-30\", \"description\": \"BOOKNOOK\", \"amount\": -25.58, \"category\": \"groceries\"}, {\"date\": \"2026-08-30\", \"description\": \"METRO TRANSIT\", \"amount\": -2.75, \"category\": \"transport\"}, {\"date\": \"2026-08-30\", \"description\": \"SHOPZONE ONLINE\", \"amount\": -106.06, \"category\": \"subscriptions\"}]}",
+      "model_calls": 102,
+      "forced_tokens": 66
+    }
+  ]
+}

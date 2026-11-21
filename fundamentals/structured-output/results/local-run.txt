@@ -1,0 +1,12 @@
+Qwen/Qwen2.5-0.5B-Instruct (2026-11-21), 10 statement excerpts, 45 rows
+
+prompt only
+  format: valid 6/10, breaks schema 3, not JSON 1
+  valid answers: right out of their 26 rows: date 23, amount 18, category 5
+  code check: caught 4 of 4 valid answers with a wrong row count, date or amount; flagged 0 of 2 right ones
+
+constrained
+  format: valid 10/10, breaks schema 0, not JSON 0
+  valid answers: right out of their 45 rows: date 40, amount 27, category 16
+  code check: caught 9 of 9 valid answers with a wrong row count, date or amount; flagged 0 of 1 right ones
+  tokens written by the code, no model call: 708 of 1862 (38%)

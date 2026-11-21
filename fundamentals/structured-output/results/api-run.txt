@@ -1,0 +1,23 @@
+Reasoning off (2026-11-21), 10 statement excerpts, 45 rows
+
+anthropic/claude-haiku-5.5, prompt only
+  format: valid 10/10, breaks schema 0, not JSON 0
+  valid answers: right out of their 45 rows: date 45, amount 45, category 43
+  code check: caught 0 of 0 valid answers with a wrong row count, date or amount; flagged 0 of 10 right ones
+
+anthropic/claude-haiku-5.5, strict schema
+  format: valid 10/10, breaks schema 0, not JSON 0
+  valid answers: right out of their 45 rows: date 45, amount 45, category 43
+  code check: caught 0 of 0 valid answers with a wrong row count, date or amount; flagged 0 of 10 right ones
+
+openai/gpt-6-luna, prompt only
+  format: valid 10/10, breaks schema 0, not JSON 0
+  valid answers: right out of their 45 rows: date 45, amount 45, category 43
+  code check: caught 0 of 0 valid answers with a wrong row count, date or amount; flagged 0 of 10 right ones
+
+openai/gpt-6-luna, strict schema
+  format: valid 10/10, breaks schema 0, not JSON 0
+  valid answers: right out of their 45 rows: date 45, amount 45, category 43
+  code check: caught 0 of 0 valid answers with a wrong row count, date or amount; flagged 0 of 10 right ones
+
+Total cost: US$ 0.0050

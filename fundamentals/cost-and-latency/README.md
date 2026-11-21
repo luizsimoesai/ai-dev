@@ -17,6 +17,7 @@ every result file records its date.
 | `2-latency.py` | Streams one question in three settings: reasoning on (shows work), reasoning on (number only), reasoning off (number only). Times the first token of the answer and the whole call, counts reasoning and answer tokens, reads the cost and grades the answer (36 calls). Saves `results/latency.json`. |
 | `3-one-call.py` | One call per model: input, cached input, output and reasoning tokens, the cost the API reports, and the estimate from the list price. |
 | `4-read-results.py` | No API calls: reads the saved accuracy results and shows, for the ambiguous question 8, which total each answer gave and whether it said which rule it used, plus the average answer length per model. |
+| `5-latency-metrics.py` | No API calls: reads the saved latency results and names the two parts of the wait, TTFT (time to first token of the answer) and TPOT (time per answer token after the first), with the medians per setting and the estimate TTFT + TPOT x output tokens next to the measured total. |
 | `common.py` | Models, statements, the ten questions with their expected answers, and the API client. |
 
 ## Run
@@ -30,6 +31,7 @@ uv run --with-requirements requirements.txt 1-accuracy.py --no-reasoning
 uv run --with-requirements requirements.txt 2-latency.py
 uv run --with-requirements requirements.txt 3-one-call.py
 uv run --with-requirements requirements.txt 4-read-results.py
+uv run --with-requirements requirements.txt 5-latency-metrics.py
 ```
 
 A full run of `1-accuracy.py` cost about US$ 0.15 on 2026-11-21 (US$ 0.13 with `--no-reasoning`); `2-latency.py`

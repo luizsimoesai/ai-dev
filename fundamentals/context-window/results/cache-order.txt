@@ -1,0 +1,10 @@
+Cache and order (2026-11-21)
+
+anthropic/claude-haiku-5.5  first question                 16,623 in,      0 cached  answer  47  US$ 0.00208
+anthropic/claude-haiku-5.5  amendment after the contract   16,651 in, 16,586 cached  answer  60  US$ 0.00019
+anthropic/claude-haiku-5.5  amendment before the contract  16,650 in,      0 cached  answer  60  US$ 0.00214
+
+openai/gpt-6-luna           first question                 10,135 in,      0 cached  answer  47  US$ 0.00128
+openai/gpt-6-luna           amendment after the contract   10,155 in, 10,107 cached  answer  60  US$ 0.00012
+openai/gpt-6-luna           amendment before the contract  10,154 in,      0 cached  answer  60  US$ 0.00128
+

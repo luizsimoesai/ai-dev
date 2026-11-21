@@ -1,0 +1,71 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "date": "2026-11-21",
+  "limit": 32768,
+  "rows": [
+    {
+      "clauses": 10,
+      "tokens": 655,
+      "question": "needle",
+      "answer": "47",
+      "expected": 47,
+      "seconds": 0.5
+    },
+    {
+      "clauses": 10,
+      "tokens": 649,
+      "question": "count",
+      "answer": "2",
+      "expected": 2,
+      "seconds": 0.4
+    },
+    {
+      "clauses": 40,
+      "tokens": 2458,
+      "question": "needle",
+      "answer": "47",
+      "expected": 47,
+      "seconds": 1.6
+    },
+    {
+      "clauses": 40,
+      "tokens": 2452,
+      "question": "count",
+      "answer": "1",
+      "expected": 8,
+      "seconds": 1.6
+    },
+    {
+      "clauses": 160,
+      "tokens": 9962,
+      "question": "needle",
+      "answer": "47",
+      "expected": 47,
+      "seconds": 9.6
+    },
+    {
+      "clauses": 160,
+      "tokens": 9956,
+      "question": "count",
+      "answer": "14",
+      "expected": 46,
+      "seconds": 9.6
+    },
+    {
+      "clauses": 480,
+      "tokens": 29800,
+      "question": "needle",
+      "answer": "47",
+      "expected": 47,
+      "seconds": 55.7
+    },
+    {
+      "clauses": 480,
+      "tokens": 29794,
+      "question": "count",
+      "answer": "12",
+      "expected": 127,
+      "seconds": 55.0
+    }
+  ]
+}

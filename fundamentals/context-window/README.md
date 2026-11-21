@@ -15,6 +15,7 @@ result records its date.
 | File | What it shows |
 |---|---|
 | `contract.py` | Builds a contract of N clauses with a fixed seed and computes the expected answers. Models, questions and the API client. |
+| `0-limits.py` | Context window and longest answer of each API model, from OpenRouter's public model list. No API key. |
 | `1-local-limit.py` | The local model's context limit, and both questions on contracts of 10 to 480 clauses (up to about 30,000 tokens). No API key; the first run downloads about 1 GB. Saves `results/local-limit.json`. |
 | `2-long-context.py` | Both questions on the two API models, with contracts of 40, 480 and 1,600 clauses (3 runs each) and 4,800 clauses (1 run, up to about 470,000 tokens). Reports tokens, answers, the cost the API reports and the time. Saves `results/long-context.json` after every call and, if stopped, resumes from there. |
 | `rebuild_from_log.py` | How the 2026-11-21 results were saved: that run stopped at call 39 of 40 (out of credit) while the script still saved only at the end, so this rebuilds the first 38 calls from the run log (answers, cost, time; no token counts). `2-long-context.py` then ran the last 2 calls. |
@@ -25,6 +26,7 @@ result records its date.
 ```bash
 cd fundamentals/context-window/
 cp .env.example .env            # add your OpenRouter key (scripts 2 and 3)
+uv run --with-requirements requirements.txt 0-limits.py
 uv run --with-requirements requirements.txt 1-local-limit.py
 uv run --with-requirements requirements.txt 2-long-context.py
 uv run --with-requirements requirements.txt 3-cache-order.py

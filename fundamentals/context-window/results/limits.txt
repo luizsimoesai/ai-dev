@@ -1,0 +1,4 @@
+Context limits on 2026-11-21, in tokens
+
+anthropic/claude-haiku-5.5  context 1,000,000  longest answer 128,000
+openai/gpt-6-luna           context 1,050,000  longest answer 128,000

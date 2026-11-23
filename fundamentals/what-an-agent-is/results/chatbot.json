@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-23",
+  "reasoning": false,
+  "calls": [
+    {
+      "id": "gen-1795458930-9OMqbksGcELiUG4Joing",
+      "model": "anthropic/claude-haiku-5.5",
+      "step": 1,
+      "reply": "I can't search live flight listings or book tickets, so I can't confirm fares for 2026-12-12 or the days either side of it. To find a one-way Lisbon to Rome flight under $150, check Google Flights, Skyscanner, or Kayak with the flexible-dates view for December 11 through 13, and set a price alert. Budget airlines like Ryanair, easyJet, or TAP Air Portugal often fall within that range when booked early.",
+      "input_tokens": 86,
+      "output_tokens": 147,
+      "cost": 8.21e-05,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795458932-dvDHiWDMTPXdEMCKGfx1",
+      "model": "openai/gpt-6-luna",
+      "step": 1,
+      "reply": "I can\u2019t check live fares or book flights here. Search Lisbon (LIS) to Rome (FCO or CIA) for Dec 11\u201313, 2026, and compare the total price\u2014including baggage and fees\u2014to your $150 limit; budget carriers may offer the best chance.",
+      "input_tokens": 61,
+      "output_tokens": 63,
+      "cost": 3.76e-05,
+      "date": "2026-11-23"
+    }
+  ]
+}

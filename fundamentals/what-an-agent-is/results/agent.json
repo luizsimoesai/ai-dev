@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-23",
+  "reasoning": false,
+  "calls": [
+    {
+      "id": "gen-1795458982-qW7ZZEdLwb4dDlPTzhDV",
+      "model": "anthropic/claude-haiku-5.5",
+      "step": 1,
+      "reply": "{\"action\":\"search_flights\",\"origin\":\"LIS\",\"destination\":\"FCO\",\"date\":\"2026-12-12\",\"text\":\"\"}",
+      "input_tokens": 512,
+      "output_tokens": 41,
+      "cost": 7.17e-05,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795458984-pdWMiI7lj8qseiEkIupq",
+      "model": "anthropic/claude-haiku-5.5",
+      "step": 2,
+      "reply": "{\"action\":\"search_flights\",\"origin\":\"LIS\",\"destination\":\"FCO\",\"date\":\"2026-12-11\",\"text\":\"\"}",
+      "input_tokens": 701,
+      "output_tokens": 41,
+      "cost": 9.06e-05,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795458985-TZznd7QYzojrkPCN0A17",
+      "model": "anthropic/claude-haiku-5.5",
+      "step": 3,
+      "reply": "{\"action\":\"search_flights\",\"origin\":\"LIS\",\"destination\":\"FCO\",\"date\":\"2026-12-13\",\"text\":\"\"}",
+      "input_tokens": 844,
+      "output_tokens": 41,
+      "cost": 0.0001049,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795458987-9Fb3Kel8DJpE3FXChQeH",
+      "model": "anthropic/claude-haiku-5.5",
+      "step": 4,
+      "reply": "{\"action\":\"answer\",\"origin\":\"\",\"destination\":\"\",\"date\":\"\",\"text\":\"No flights on 2026-12-12 are under $150; the cheapest that day is FX 305 at 14:30 for $179. One day later, on 2026-12-13, FX 401 departs at 06:50 for $128, which fits your budget. Note that one day earlier, 2026-12-11, FX 211 at 07:05 for $162 is also over budget.\"}",
+      "input_tokens": 987,
+      "output_tokens": 142,
+      "cost": 0.0001697,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795458990-NT25Rf7nDYGcfj137ivO",
+      "model": "openai/gpt-6-luna",
+      "step": 1,
+      "reply": "{\"action\":\"search_flights\",\"origin\":\"LIS\",\"destination\":\"ROM\",\"date\":\"2026-12-12\",\"text\":\"\"}\tJSONObject\n-vesm\n{\"action\":\"search_flights\",\"origin\":\"LIS\",\"destination\":\"ROM\",\"date\":\"2026-12-11\",\"text\":\"\"}\tJSONObject\n{\"action\":\"search_flights\",\"origin\":\"LIS\",\"destination\":\"ROM\",\"date\":\"2026-12-13\",\"text\":\"\"}\tJSONObject\n\n\n{\"action\":\"answer\",\"origin\":\"\",\"destination\":\"\",\"date\":\"\",\"text\":\"I couldn\u2019t verify any flight results for Lisbon to Rome on December 11\u201313, 2026, so I can\u2019t confirm a fare at or below $150.\"}",
+      "input_tokens": 204,
+      "output_tokens": 158,
+      "cost": 9.94e-05,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795459024-x7DG1hIQ1FIdI0XNW4xF",
+      "model": "openai/gpt-6-luna",
+      "provider": "OpenAI",
+      "step": 2,
+      "reply": "{\"action\":\"answer\",\"origin\":\"\",\"destination\":\"\",\"date\":\"\",\"text\":\"I couldn\u2019t verify flight results for Lisbon to Rome on December 11\u201313, 2026, so I can\u2019t confirm a fare at or below $150.\"}",
+      "input_tokens": 373,
+      "output_tokens": 55,
+      "cost": 6.48e-05,
+      "date": "2026-11-23"
+    }
+  ]
+}

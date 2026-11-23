@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-23",
+  "reasoning": false,
+  "calls": [
+    {
+      "id": "gen-1795464621-TRZZMkwyNplhZ0HkILFZ",
+      "model": "anthropic/claude-haiku-5.5",
+      "provider": "Claude Platform on AWS",
+      "question": "flight-booking",
+      "step": 1,
+      "reply": "You need to book your flight at least 14 days before departure, through the travel portal.",
+      "input_tokens": 188,
+      "output_tokens": 26,
+      "cost": 3.18e-05,
+      "seconds": 1.36,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795464622-uvSZd3S6ulf5FHHRPn6a",
+      "model": "anthropic/claude-haiku-5.5",
+      "provider": "Claude Platform on AWS",
+      "question": "coworking-abroad",
+      "step": 1,
+      "reply": "Yes, coworking spaces are reimbursed under the expenses policy, but the handbook doesn't state a dollar limit, so the amount isn't covered here. Working from another country is allowed for up to 30 days per year, and you must tell HR at least 10 days before you go. Two weeks is within that limit, so you'll need to notify HR at least 10 days ahead of your trip.",
+      "input_tokens": 184,
+      "output_tokens": 125,
+      "cost": 8.09e-05,
+      "seconds": 1.19,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795464623-gPZyrzglODD8f7fyff6K",
+      "model": "openai/gpt-6-luna",
+      "provider": "OpenAI",
+      "question": "flight-booking",
+      "step": 1,
+      "reply": "Book your flight at least 14 days before departure.",
+      "input_tokens": 134,
+      "output_tokens": 15,
+      "cost": 2.09e-05,
+      "seconds": 1.49,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795464624-THcED9GkSz4AowmOzyNO",
+      "model": "openai/gpt-6-luna",
+      "provider": "OpenAI",
+      "question": "coworking-abroad",
+      "step": 1,
+      "reply": "Coworking spaces are reimbursed under the expenses policy. The handbook doesn\u2019t specify a reimbursement limit.",
+      "input_tokens": 133,
+      "output_tokens": 25,
+      "cost": 2.58e-05,
+      "seconds": 1.23,
+      "date": "2026-11-23"
+    }
+  ]
+}

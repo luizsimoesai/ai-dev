@@ -10,6 +10,8 @@ OpenRouter-hosted models (OpenAI-compatible API). Each file's comments also show
 equivalent [Pydantic AI](https://ai.pydantic.dev/agents/) implementation the code was
 ported from, so you can compare both frameworks step by step.
 
+**Source:** adapted from [`knowledge/agentic-rag`](https://github.com/daveebbelaar/ai-cookbook/tree/main/knowledge/agentic-rag) in Dave Ebbelaar's [ai-cookbook](https://github.com/daveebbelaar/ai-cookbook) (MIT License); `notes/` and `utils/tools.py` are unchanged copies. See [`NOTICE`](NOTICE) for the copyright notice and license text.
+
 ### Requirements
 
 - Python 3.12+

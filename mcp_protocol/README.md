@@ -2,6 +2,8 @@
 
 Recipes `1-server-setup` through `4-mcp-with-docker` adapted from Dave Ebbelaar's MCP crash course: see `link.txt`.
 
+**Source:** the code of `1-server-setup` to `4-mcp-with-docker` and most of this README come from [`mcp/crash-course`](https://github.com/daveebbelaar/ai-cookbook/tree/main/mcp/crash-course) in Dave Ebbelaar's [ai-cookbook](https://github.com/daveebbelaar/ai-cookbook) (MIT License). See [`NOTICE`](NOTICE) for the copyright notice and license text.
+
 *'We're introducing the Model Context Protocol (MCP), a new standard for connecting AI assistants to the systems where data lives.'*   
  Anthropic: https://www.anthropic.com/news/model-context-protocol.
 

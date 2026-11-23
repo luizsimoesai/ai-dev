@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-23",
+  "reasoning": false,
+  "calls": [
+    {
+      "id": "gen-1795466267-CVkNvfNDURWYZsBQHF44",
+      "model": "anthropic/claude-haiku-5.5",
+      "provider": "Azure",
+      "step": 1,
+      "reply": "{\"ingredients\":[{\"name\":\"flour\",\"quantity\":375,\"unit\":\"g\"},{\"name\":\"milk\",\"quantity\":600,\"unit\":\"ml\"},{\"name\":\"eggs\",\"quantity\":4.5,\"unit\":\"whole\"},{\"name\":\"butter\",\"quantity\":60,\"unit\":\"g\"},{\"name\":\"sugar\",\"quantity\":3,\"unit\":\"tbsp\"},{\"name\":\"baking powder\",\"quantity\":3,\"unit\":\"tsp\"},{\"name\":\"salt\",\"quantity\":0.75,\"unit\":\"tsp\"}]}",
+      "input_tokens": 597,
+      "output_tokens": 182,
+      "cost": 0.0001507,
+      "seconds": 2.58,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795466270-ijLFY6ruk1T48D6wb1lZ",
+      "model": "openai/gpt-6-luna",
+      "provider": "OpenAI",
+      "step": 1,
+      "reply": "{\"ingredients\":[{\"name\":\"flour\",\"quantity\":375,\"unit\":\"g\"},{\"name\":\"milk\",\"quantity\":600,\"unit\":\"ml\"},{\"name\":\"eggs\",\"quantity\":4.5,\"unit\":\"whole\"},{\"name\":\"butter\",\"quantity\":60,\"unit\":\"g\"},{\"name\":\"sugar\",\"quantity\":3,\"unit\":\"tbsp\"},{\"name\":\"baking powder\",\"quantity\":3,\"unit\":\"tsp\"},{\"name\":\"salt\",\"quantity\":0.75,\"unit\":\"tsp\"}]}",
+      "input_tokens": 249,
+      "output_tokens": 109,
+      "cost": 7.94e-05,
+      "seconds": 1.54,
+      "date": "2026-11-23"
+    }
+  ]
+}

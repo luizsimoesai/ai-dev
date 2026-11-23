@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-23",
+  "reasoning": false,
+  "calls": [
+    {
+      "id": "gen-1795466271-ra4SVgwNUjH40YZwSbrK",
+      "model": "anthropic/claude-haiku-5.5",
+      "provider": "Azure",
+      "step": 1,
+      "reply": "{\"action\":\"get_recipe\",\"servings\":0,\"ingredients\":[]}",
+      "input_tokens": 569,
+      "output_tokens": 26,
+      "cost": 6.99e-05,
+      "seconds": 1.65,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795466273-kc2L0DGsmG2aUgcL77W9",
+      "model": "anthropic/claude-haiku-5.5",
+      "provider": "Azure",
+      "step": 2,
+      "reply": "{\"action\":\"scale_recipe\",\"servings\":6,\"ingredients\":[]}",
+      "input_tokens": 819,
+      "output_tokens": 27,
+      "cost": 9.54e-05,
+      "seconds": 1.27,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795466274-vNkGPqHY5PxdeRWE6sMj",
+      "model": "anthropic/claude-haiku-5.5",
+      "provider": "Azure",
+      "step": 3,
+      "reply": "{\"action\":\"answer\",\"servings\":6,\"ingredients\":[{\"name\":\"flour\",\"quantity\":375,\"unit\":\"g\"},{\"name\":\"milk\",\"quantity\":600,\"unit\":\"ml\"},{\"name\":\"eggs\",\"quantity\":5,\"unit\":\"whole\"},{\"name\":\"butter\",\"quantity\":60,\"unit\":\"g\"},{\"name\":\"sugar\",\"quantity\":3,\"unit\":\"tbsp\"},{\"name\":\"baking powder\",\"quantity\":3,\"unit\":\"tsp\"},{\"name\":\"salt\",\"quantity\":0.75,\"unit\":\"tsp\"}]}",
+      "input_tokens": 1080,
+      "output_tokens": 192,
+      "cost": 0.000204,
+      "seconds": 1.51,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795466276-RkeRUKxt8rMwQ2WMQTku",
+      "model": "openai/gpt-6-luna",
+      "provider": "OpenAI",
+      "step": 1,
+      "reply": "{\"action\":\"get_recipe\",\"servings\":0,\"ingredients\":[]}",
+      "input_tokens": 190,
+      "output_tokens": 27,
+      "cost": 3.25e-05,
+      "seconds": 1.21,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795466277-itPZxoTVTf3rrFyNxnUV",
+      "model": "openai/gpt-6-luna",
+      "provider": "OpenAI",
+      "step": 2,
+      "reply": "{\"action\":\"scale_recipe\",\"servings\":6,\"ingredients\":[]}",
+      "input_tokens": 372,
+      "output_tokens": 21,
+      "cost": 4.77e-05,
+      "seconds": 1.25,
+      "date": "2026-11-23"
+    },
+    {
+      "id": "gen-1795466278-jF9iVpTNWqtHm0EraT9V",
+      "model": "openai/gpt-6-luna",
+      "provider": "OpenAI",
+      "step": 3,
+      "reply": "{\"action\":\"answer\",\"servings\":6,\"ingredients\":[{\"name\":\"flour\",\"quantity\":375,\"unit\":\"g\"},{\"name\":\"milk\",\"quantity\":600,\"unit\":\"ml\"},{\"name\":\"eggs\",\"quantity\":5,\"unit\":\"whole\"},{\"name\":\"butter\",\"quantity\":60,\"unit\":\"g\"},{\"name\":\"sugar\",\"quantity\":3,\"unit\":\"tbsp\"},{\"name\":\"baking powder\",\"quantity\":3,\"unit\":\"tsp\"},{\"name\":\"salt\",\"quantity\":0.75,\"unit\":\"tsp\"}]}",
+      "input_tokens": 564,
+      "output_tokens": 116,
+      "cost": 0.0001144,
+      "seconds": 3.23,
+      "date": "2026-11-23"
+    }
+  ]
+}

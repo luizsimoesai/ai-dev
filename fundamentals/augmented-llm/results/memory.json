@@ -1,0 +1,8 @@
+{
+  "anthropic/claude-haiku-5.5": [
+    "Every new function name in this project must start with the prefix sl_, for example sl_new_slug."
+  ],
+  "openai/gpt-6-luna": [
+    "Every new function name must start with the `sl_` prefix, for example `sl_new_slug`."
+  ]
+}
